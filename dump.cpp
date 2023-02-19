@@ -28,10 +28,10 @@ template<class key, class value, class cmp = std::less<key>> using ordered_map =
 constexpr ll Inf = 4e18;
 constexpr int mod = 1e9+7;
 // constexpr int mod = 998244353;
-constexpr int maxn = 1e7+5;
+constexpr int maxn = 1e6+5;
 
 // precomp defs
-int fac[maxn]; int inv[maxn];
+vector<int> fac(maxn); vector<int> inv(maxn);
 
 //random generator
 mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
@@ -52,7 +52,6 @@ void file_io(){
 #define maxv(v,b,e)       max_element((v).begin()+b,(v).begin()+e)
 #define precise(n)        cout<<fixed<<setprecision((n))
 
-// Credit - https://graphics.stanford.edu/~seander/bithacks.html
 #define bpc(n)            std::popcount((unsigned long long)(n))
 #define hsb(n)            std::has_single_bit((unsigned long long)(n))
 #define MSB(n)            std::bit_floor((unsigned long long)(n))
@@ -132,7 +131,7 @@ void pre_process(){
         fac[i] = (fac[i-1] * i)%mod;
         inv[i] = modpow(fac[i], mod - 2);
     }
-    // sieve(maxn);
+    sieve(maxn);
 }
 
 int solve(){
