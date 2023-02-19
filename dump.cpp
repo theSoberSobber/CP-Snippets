@@ -52,6 +52,7 @@ void file_io(){
 #define maxv(v,b,e)       max_element((v).begin()+b,(v).begin()+e)
 #define precise(n)        cout<<fixed<<setprecision((n))
 
+// Credit - https://graphics.stanford.edu/~seander/bithacks.html
 #define bpc(n)            std::popcount((unsigned long long)(n))
 #define hsb(n)            std::has_single_bit((unsigned long long)(n))
 #define MSB(n)            std::bit_floor((unsigned long long)(n))
