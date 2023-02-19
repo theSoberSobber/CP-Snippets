@@ -24,6 +24,10 @@ template<class key, class value, class cmp = std::less<key>> using ordered_map =
 #define spr(x)              for(int i=1; i<=n; i++) cout<<x[i]<<' ';
 #define uniq(x)             x.erase(unique(all(x)),x.end());
 
+// amax and amin
+template<typename T,typename T1> inline bool amax(T &a,T1 b){ if(b>a) { a=b; return true; } return false; }
+template<typename T,typename T1> inline bool amin(T &a,T1 b){ if(b<a) { a=b; return true; } return false; }
+
 /*----------------------------------x--- Constants --x--------------------------------*/
 constexpr ll Inf = 4e18;
 constexpr int mod = 1e9+7;
