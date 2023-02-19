@@ -127,10 +127,10 @@ void sieve(int s = maxn) {
 
 void pre_process(){
     fac[1] = inv[1] = 1;
-    for (int i=2; i<maxn; i++){
-        fac[i] = (fac[i-1] * i)%mod;
-        inv[i] = modpow(fac[i], mod - 2);
-    }
+    for (int i=2; i<maxn; i++) fac[i] = (fac[i-1] * i)%mod;
+    // O(n)
+    inv[maxn-1] = modpow(fac[maxn-1], mod - 2);
+    for (int i=maxn-1; i>1; i--) inv[i] = (i + 1) * inv[i + 1];
     sieve(maxn);
 }
 
