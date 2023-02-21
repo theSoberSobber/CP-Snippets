@@ -18,6 +18,5 @@ const base = "https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.j
 
 --- 
 ${links}`; 
-    console.log(topics);
-    // await writeFile('./README.md', topics); 
+    await writeFile('./README.md', topics); 
 })();
