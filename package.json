@@ -1,0 +1,22 @@
+{
+  "name": "cp-snippets",
+  "version": "1.0.0",
+  "description": "- bitset\r - seg, fen, link, block\r - static range sum\r - binse tern\r - tarjan, dfs tree",
+  "main": "index.js",
+  "scripts": {
+    "start": "node gen.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theSoberSobber/CP-Snippets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theSoberSobber/CP-Snippets/issues"
+  },
+  "homepage": "https://github.com/theSoberSobber/CP-Snippets#readme",
+  "dependencies": {
+    "ci": "^2.2.0"
+  }
+}

@@ -20,7 +20,7 @@ jobs:
         npm ci
     - name: Update README
       run: |-
-        node gen.js
+        npm run start
         cat README.md
     - name: Commit and push if changed
       run: |-
