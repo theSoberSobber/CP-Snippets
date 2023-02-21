@@ -320,7 +320,6 @@
 		],
 		"description": "matrix"
 	},
-	
 	"power_in_fac": {
 		"prefix": "highest_exponent",
 		"body": [

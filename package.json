@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/theSoberSobber/CP-Snippets#readme",
   "dependencies": {
-    "ci": "^2.2.0"
+    "ci": "^2.2.0",
+    "markdown-it": "^13.0.1"
   }
 }
