@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on: macOS-latest
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - name: Use Node.js ${{ matrix.node-version }}
@@ -22,11 +22,7 @@ jobs:
       run: |-
         npm run start
         cat README.md
-    - name: Commit and push if changed
-      run: |-
-        git add .
-        git diff
-        git config --global user.email "akshatshrivasava0010@gmail.com"
-        git config --global user.name "theSoberSobber"
-        git commit -m "compiled new index" -a || echo "No changes to commit"
-        git push
+    - name: Git Auto Commit
+      uses: stefanzweifel/git-auto-commit-action@v4.16.0
+      with: 
+        commit_message: readme index
