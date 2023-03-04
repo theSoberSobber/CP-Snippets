@@ -3,39 +3,42 @@
 --- 
 
 - **[bp](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2)** : bp 
-- **[pbds](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L52)** : pbds 
-- **[xor-basis](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L67)** : xor-basis 
-- **[linear diophantine](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L115)** : linear diophantine 
-- **[crt](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L191)** : crt 
-- **[totient-seive](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L215)** : totient-seive 
-- **[totient](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L229)** : totient 
-- **[log](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L249)** : log 
-- **[matrix](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L280)** : matrix 
-- **[power_in_fac](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L331)** : power_in_fac 
-- **[freq-map](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L346)** : freq-map 
-- **[rng](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L357)** : rng 
-- **[two-sat (kosaraju)](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L366)** : two-sat (kosaraju) 
-- **[pq](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L503)** : pq 
-- **[explanation_binsearch](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L511)** : explanation_binsearch 
-- **[binsearch](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L546)** : binsearch 
-- **[lambda_function](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L567)** : lambda_function 
-- **[fac](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L576)** : fac 
-- **[combination](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L590)** : combination 
-- **[combination-non-mod](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L603)** : combination-non-mod 
-- **[factorization](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L620)** : factorization 
-- **[DSU](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L650)** : DSU 
-- **[kruskal](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L685)** : kruskal 
-- **[kosaraju](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L706)** : kosaraju 
-- **[LCA path satisfying some condition](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L786)** : LCA path satisfying some condition 
-- **[combination-small](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L847)** : combination-small 
-- **[arr-inp](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L863)** : arr-inp 
-- **[arr-pref](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L871)** : arr-pref 
-- **[recur-modpow](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L879)** : recur-modpow 
-- **[binpow](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L895)** : binpow 
-- **[modpow](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L910)** : modpow 
-- **[mint](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L926)** :  
-- **[seive](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L985)** : seive 
-- **[derangments](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1003)** : derangments 
-- **[euclid](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1016)** : euclid 
-- **[easy_seive](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1041)** : easy_seive 
-- **[troll](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1060)** : troll 
+- **[sextree](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L52)** : sextree 
+- **[binary indexed tree](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L166)** : binary indexed tree 
+- **[trie](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L206)** : trie 
+- **[pbds](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L242)** : pbds 
+- **[xor-basis](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L257)** : xor-basis 
+- **[linear diophantine](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L305)** : linear diophantine 
+- **[crt](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L381)** : crt 
+- **[totient-seive](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L405)** : totient-seive 
+- **[totient](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L419)** : totient 
+- **[log](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L439)** : log 
+- **[matrix](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L470)** : matrix 
+- **[power_in_fac](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L521)** : power_in_fac 
+- **[freq-map](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L536)** : freq-map 
+- **[rng](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L547)** : rng 
+- **[two-sat (kosaraju)](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L556)** : two-sat (kosaraju) 
+- **[pq](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L693)** : pq 
+- **[explanation_binsearch](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L701)** : explanation_binsearch 
+- **[binsearch](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L736)** : binsearch 
+- **[lambda_function](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L757)** : lambda_function 
+- **[fac](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L766)** : fac 
+- **[combination](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L780)** : combination 
+- **[combination-non-mod](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L793)** : combination-non-mod 
+- **[factorization](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L810)** : factorization 
+- **[DSU](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L840)** : DSU 
+- **[kruskal](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L875)** : kruskal 
+- **[kosaraju](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L896)** : kosaraju 
+- **[LCA path satisfying some condition](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L976)** : LCA path satisfying some condition 
+- **[combination-small](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1037)** : combination-small 
+- **[arr-inp](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1053)** : arr-inp 
+- **[arr-pref](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1061)** : arr-pref 
+- **[recur-modpow](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1069)** : recur-modpow 
+- **[binpow](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1085)** : binpow 
+- **[modpow](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1100)** : modpow 
+- **[mint](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1116)** : modular integer 
+- **[seive](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1175)** : seive 
+- **[derangments](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1193)** : derangments 
+- **[euclid](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1206)** : euclid 
+- **[easy_seive](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1231)** : easy_seive 
+- **[troll](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1250)** : troll 
