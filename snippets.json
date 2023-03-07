@@ -49,7 +49,7 @@
 		],
 		"description": "bp"
 	},
-	"sextree": {
+	"segtree": {
 		"prefix": "segtree",
 		"body": [
 		  "template<class T, class U>",
@@ -163,7 +163,36 @@
 		],
 		"description": "sextree"
 	},
-	"binary indexed tree": {
+    "bit": {
+        "prefix": "bit",
+        "body": [
+          "template<typename T>",
+          "struct BIT {",
+          "    vector<T> tree;",
+          "    BIT(int n) { tree.resize(n); }",
+          "    BIT(vector<T>& v) {",
+          "        tree.resize(v.size());",
+          "        for(int i=1;i<v.size();i++) update(i, v[i]);",
+          "    }",
+          "    T query(int index) {",
+          "        T ans = 0;",
+          "        while (index > 0) {",
+          "            ans += tree[index];",
+          "            index -= index & (-index);",
+          "        }",
+          "        return ans;",
+          "    }",
+          "    void update(int index, T val) {",
+          "        while (index < tree.size()) {",
+          "            tree[index] += val;",
+          "            index += index & (-index);",
+          "        }",
+          "    }",
+          "};"
+        ],
+        "description": "simpler-fenwick"
+    },
+	"fenwick": {
 		"prefix": "fenwick",
 		"body": [
 		  "// 0-indexed BIT (binary indexed tree / Fenwick tree) (i : [0, len))",
