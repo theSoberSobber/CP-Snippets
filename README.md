@@ -43,4 +43,5 @@
 - **[derangments](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1225)** : derangments 
 - **[euclid](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1238)** : euclid 
 - **[easy_seive](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1263)** : easy_seive 
-- **[troll](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1282)** : troll 
+- **[combi-struct](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1282)** : a struct that implements functions used in solving combi questions, current = fac, invfac, nCr, modinv : (Credits: Jiangly) 
+- **[troll](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1333)** : troll 
