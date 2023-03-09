@@ -4,7 +4,8 @@
   "description": "- bitset\r - seg, fen, link, block\r - static range sum\r - binse tern\r - tarjan, dfs tree",
   "main": "index.js",
   "scripts": {
-    "start": "node gen.js"
+    "start": "node ./scripts/index-gen.js",
+    "build-site": "node ./scripts/site-gen.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/theSoberSobber/CP-Snippets#readme",
   "dependencies": {
     "ci": "^2.2.0",
-    "markdown-it": "^13.0.1"
+    "markdown-it": "^13.0.1",
+    "marked": "^4.2.12"
   }
 }

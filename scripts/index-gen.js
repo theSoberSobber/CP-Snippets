@@ -8,7 +8,7 @@ const base = "https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.j
     for(let i in file){ 
         pre[i]=t; 
         t+=file[i].body.length+6; 
-    } 
+    }
     for(let i in file){ 
         const lno=1; 
         links += `

@@ -1,4 +1,4 @@
-name: Build README
+name: Build README and Site
 
 on:
   push:
@@ -20,7 +20,11 @@ jobs:
       run: |-
         npm run start
         cat README.md
+    - name: Update Site
+      run: |-
+        npm run build-site
+        cat index.html
     - name: Git Auto Commit
       uses: stefanzweifel/git-auto-commit-action@v4.16.0
       with: 
-        commit_message: readme index
+        commit_message: "Chore: README+Site"
