@@ -296,10 +296,49 @@ struct Lsegtree{
 };
 </code></pre>
 <hr>
+<h2 id="dsu-rr">dsu-rr</h2>
+<ul>
+<li>dsu-rr</li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L266">github</a></li>
+</ul>
+<pre><code class="language-cpp">class Solution {
+    struct DSU
+    {
+        vector&lt;int&gt; siz,parent;
+        void init()
+        {
+            siz.resize(26);
+            parent.resize(26);
+            for(int i=0;i&lt;26;i++)
+            {
+                siz[i]=1;
+                parent[i]=i;
+            }
+        }
+        int leader(int ex)
+        {
+            if(ex==parent[ex])
+                return ex;
+            return parent[ex]=leader(parent[ex]);
+        }
+        void merge(int a,int b)
+        {
+            a=leader(a);
+            b=leader(b);
+            if(a==b)
+                return;
+            if(siz[a]&lt;siz[b])
+                swap(a,b);
+            siz[a]+=siz[b];
+            parent[b]=parent[a];
+        }
+    };
+</code></pre>
+<hr>
 <h2 id="binary-indexed-tree">binary indexed tree</h2>
 <ul>
 <li>binary indexed tree</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L266">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L305">github</a></li>
 </ul>
 <pre><code class="language-cpp">// 0-indexed BIT (binary indexed tree / Fenwick tree) (i : [0, len))
 template &lt;class T&gt;
@@ -340,7 +379,7 @@ struct BIT{
 <h2 id="trie">trie</h2>
 <ul>
 <li>trie</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L306">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L345">github</a></li>
 </ul>
 <pre><code class="language-cpp">struct Trie{
     struct node{
@@ -376,7 +415,7 @@ struct BIT{
 <h2 id="pbds">pbds</h2>
 <ul>
 <li>pbds</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L342">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L381">github</a></li>
 </ul>
 <pre><code class="language-cpp">#include &lt;ext/pb_ds/assoc_container.hpp&gt;
 #include &lt;ext/pb_ds/tree_policy.hpp&gt;
@@ -392,7 +431,7 @@ template&lt;class key, class value, class cmp = std::less&lt;key&gt;&gt; using o
 <h2 id="xor-basis">xor-basis</h2>
 <ul>
 <li>xor-basis</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L357">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L396">github</a></li>
 </ul>
 <pre><code class="language-cpp">struct XorBasis{
     private:
@@ -440,7 +479,7 @@ template&lt;class key, class value, class cmp = std::less&lt;key&gt;&gt; using o
 <h2 id="linear-diophantine">linear diophantine</h2>
 <ul>
 <li>linear diophantine</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L405">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L444">github</a></li>
 </ul>
 <pre><code class="language-cpp">long long gcd(long long a, long long b, long long &amp;x, long long &amp;y) {
   if (a == 0) {
@@ -516,7 +555,7 @@ long long find_all_solutions(long long a, long long b, long long c,
 <h2 id="crt">crt</h2>
 <ul>
 <li>crt</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L481">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L520">github</a></li>
 </ul>
 <pre><code class="language-cpp">/**
  * Chinese remainder theorem.
@@ -541,7 +580,7 @@ long long crt(vector&lt;long long&gt; &amp;a, vector&lt;long long&gt; &amp;x) {
 <h2 id="totient-seive">totient-seive</h2>
 <ul>
 <li>totient-seive</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L505">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L544">github</a></li>
 </ul>
 <pre><code class="language-cpp">  for (int i = 1; i &lt; MN; i++)
     phi[i] = i;
@@ -555,7 +594,7 @@ long long crt(vector&lt;long long&gt; &amp;a, vector&lt;long long&gt; &amp;x) {
 <h2 id="totient">totient</h2>
 <ul>
 <li>totient</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L519">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L558">github</a></li>
 </ul>
 <pre><code class="language-cpp">long long totient(long long n) {
   if (n == 1) return 0;
@@ -576,7 +615,7 @@ long long crt(vector&lt;long long&gt; &amp;a, vector&lt;long long&gt; &amp;x) {
 <h2 id="log">log</h2>
 <ul>
 <li>log</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L539">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L578">github</a></li>
 </ul>
 <pre><code class="language-cpp">// Computes x which a ^ x = b mod n.
 
@@ -608,7 +647,7 @@ long long d_log(long long a, long long b, long long n) {
 <h2 id="matrix">matrix</h2>
 <ul>
 <li>matrix</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L570">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L609">github</a></li>
 </ul>
 <pre><code class="language-cpp">const int MN  = 111;
 const int mod = 10000;
@@ -660,7 +699,7 @@ void matrix_pow(matrix b, long long e, matrix &amp;res) {
 <h2 id="power_in_fac">power_in_fac</h2>
 <ul>
 <li>power_in_fac</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L621">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L660">github</a></li>
 </ul>
 <pre><code class="language-cpp">int highest_exponent(int p, const int &amp;n){
   int ans = 0;
@@ -676,7 +715,7 @@ void matrix_pow(matrix b, long long e, matrix &amp;res) {
 <h2 id="freq-map">freq-map</h2>
 <ul>
 <li>freq-map</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L636">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L675">github</a></li>
 </ul>
 <pre><code class="language-cpp">map&lt;int, int&gt; m;
 for(int i=0; i&lt;n;i++){
@@ -688,7 +727,7 @@ for(int i=0; i&lt;n;i++){
 <h2 id="rng">rng</h2>
 <ul>
 <li>rng</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L647">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L686">github</a></li>
 </ul>
 <pre><code class="language-cpp">//random generator
 mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
@@ -698,7 +737,7 @@ ll rnd(ll a,ll b){if(a &gt; b){return -1;}return a + (ll)rng() % (b - a + 1);}
 <h2 id="two-sat-kosaraju">two-sat (kosaraju)</h2>
 <ul>
 <li>two-sat (kosaraju)</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L656">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L695">github</a></li>
 </ul>
 <pre><code class="language-cpp">/**
  *  Given a set of clauses (a1 v a2)^(a2 v ¬a3)....
@@ -836,7 +875,7 @@ int main() {
 <h2 id="pq">pq</h2>
 <ul>
 <li>pq</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L793">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L832">github</a></li>
 </ul>
 <pre><code class="language-cpp">priority_queue&lt;int&gt; pq;
 priority_queue&lt;int, vector&lt;int&gt;, greater&lt;&gt;&gt; pq;
@@ -845,7 +884,7 @@ priority_queue&lt;int, vector&lt;int&gt;, greater&lt;&gt;&gt; pq;
 <h2 id="explanation_binsearch">explanation_binsearch</h2>
 <ul>
 <li>explanation_binsearch</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L801">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L840">github</a></li>
 </ul>
 <pre><code class="language-cpp">int lo = 0, hi = n-1; // see constraints for lo and hi, nahi mil rahe toh just take 0 and 1e18
 while(hi-lo&gt;1) {
@@ -881,7 +920,7 @@ while(hi-lo&gt;1) {
 <h2 id="binsearch">binsearch</h2>
 <ul>
 <li>binsearch</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L836">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L875">github</a></li>
 </ul>
 <pre><code class="language-cpp">int lo = 0, hi = n-1;
 while(hi-lo&gt;1) {
@@ -903,7 +942,7 @@ while(hi-lo&gt;1) {
 <h2 id="lambda_function">lambda_function</h2>
 <ul>
 <li>lambda_function</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L857">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L896">github</a></li>
 </ul>
 <pre><code class="language-cpp">auto check = [&amp;](ll mid) {
   return mid - (mid / n) &gt;= k;
@@ -913,7 +952,7 @@ while(hi-lo&gt;1) {
 <h2 id="fac">fac</h2>
 <ul>
 <li>fac</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L866">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L905">github</a></li>
 </ul>
 <pre><code class="language-cpp">int fac[maxn];
 int inv[maxn];
@@ -927,7 +966,7 @@ for (int i=2; i&lt;maxn; i++){
 <h2 id="combination">combination</h2>
 <ul>
 <li>combination</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L880">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L919">github</a></li>
 </ul>
 <pre><code class="language-cpp">int C(int n, int r){
     int v = (fac[n] * inv[r])%mod;
@@ -940,7 +979,7 @@ for (int i=2; i&lt;maxn; i++){
 <h2 id="combination-non-mod">combination-non-mod</h2>
 <ul>
 <li>combination-non-mod</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L893">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L932">github</a></li>
 </ul>
 <pre><code class="language-cpp">vector&lt;vector&lt;int&gt;&gt; dp(n+1, vector&lt;int&gt; (k+1));
 int binomalCoeff(int n, int k){
@@ -958,7 +997,7 @@ int binomalCoeff(int n, int k){
 <h2 id="factorization">factorization</h2>
 <ul>
 <li>factorization</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L910">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L949">github</a></li>
 </ul>
 <pre><code class="language-cpp">void printFactors(int n) { 
     for (int i=1; i * i&lt;=n; i++){} 
@@ -988,7 +1027,7 @@ void printPrimeFactors(int n){
 <h2 id="dsu">DSU</h2>
 <ul>
 <li>DSU</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L940">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L979">github</a></li>
 </ul>
 <pre><code class="language-cpp">class DSU {
 private:
@@ -1024,7 +1063,7 @@ public:
 <h2 id="kruskal">kruskal</h2>
 <ul>
 <li>kruskal</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L975">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1014">github</a></li>
 </ul>
 <pre><code class="language-cpp">auto kruskalMST(vector&lt;Edge&gt; &amp;edges, int V){
     int cost = 0;
@@ -1045,7 +1084,7 @@ public:
 <h2 id="kosaraju">kosaraju</h2>
 <ul>
 <li>kosaraju</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L996">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1035">github</a></li>
 </ul>
 <pre><code class="language-cpp">class Graph {
  int V;
@@ -1126,7 +1165,7 @@ void Graph::printSCCs() {
 <h2 id="lca-path-satisfying-some-condition">LCA path satisfying some condition</h2>
 <ul>
 <li>LCA path satisfying some condition</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1076">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1115">github</a></li>
 </ul>
 <pre><code class="language-cpp">constexpr int N = 5; // No. of vertices
 constexpr int L = 4; // ceil(logN / log2) + 1
@@ -1187,7 +1226,7 @@ int dist(int a, int b){
 <h2 id="combination-small">combination-small</h2>
 <ul>
 <li>combination-small</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1137">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1176">github</a></li>
 </ul>
 <pre><code class="language-cpp">int C(int n,int r){
     r = min(r,n-r);
@@ -1203,7 +1242,7 @@ int dist(int a, int b){
 <h2 id="arr-inp">arr-inp</h2>
 <ul>
 <li>arr-inp</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1153">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1192">github</a></li>
 </ul>
 <pre><code class="language-cpp">vector&lt;int&gt; a(n, 0);
 for(int i=0;i&lt;n;i++) cin&gt;&gt;a[i];
@@ -1212,7 +1251,7 @@ for(int i=0;i&lt;n;i++) cin&gt;&gt;a[i];
 <h2 id="arr-pref">arr-pref</h2>
 <ul>
 <li>arr-pref</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1161">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1200">github</a></li>
 </ul>
 <pre><code class="language-cpp">vector&lt;int&gt; pre(n, 0);
 for(int i=1;i&lt;n;i++) pre[i]=a[i]+pref[i-1]; 
@@ -1221,7 +1260,7 @@ for(int i=1;i&lt;n;i++) pre[i]=a[i]+pref[i-1];
 <h2 id="recur-modpow">recur-modpow</h2>
 <ul>
 <li>recur-modpow</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1169">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1208">github</a></li>
 </ul>
 <pre><code class="language-cpp">int power(int x, int y){
     if (y==0) return 1;
@@ -1237,7 +1276,7 @@ for(int i=1;i&lt;n;i++) pre[i]=a[i]+pref[i-1];
 <h2 id="binpow">binpow</h2>
 <ul>
 <li>binpow</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1185">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1224">github</a></li>
 </ul>
 <pre><code class="language-cpp">ll binpow(ll x, ll y){
     ll res = 1;
@@ -1253,7 +1292,7 @@ for(int i=1;i&lt;n;i++) pre[i]=a[i]+pref[i-1];
 <h2 id="modpow">modpow</h2>
 <ul>
 <li>modpow</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1200">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1239">github</a></li>
 </ul>
 <pre><code class="language-cpp">ll modpow(ll a, ll b){
     a %= m;
@@ -1270,7 +1309,7 @@ for(int i=1;i&lt;n;i++) pre[i]=a[i]+pref[i-1];
 <h2 id="mint">mint</h2>
 <ul>
 <li>modular integer</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1216">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1255">github</a></li>
 </ul>
 <pre><code class="language-cpp">struct mi {
     int64_t v; explicit operator int64_t() const { return v % mod; }
@@ -1329,7 +1368,7 @@ for(int i=1;i&lt;n;i++) pre[i]=a[i]+pref[i-1];
 <h2 id="seive">seive</h2>
 <ul>
 <li>seive</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1275">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1314">github</a></li>
 </ul>
 <pre><code class="language-cpp">vector&lt;bool&gt; Prime;
 vector&lt;int&gt; spf;
@@ -1347,7 +1386,7 @@ void sieve(int s = maxn) {
 <h2 id="derangments">derangments</h2>
 <ul>
 <li>derangments</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1293">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1332">github</a></li>
 </ul>
 <pre><code class="language-cpp">int countDerangements(int n){
     int dp[n + 1];
@@ -1361,7 +1400,7 @@ void sieve(int s = maxn) {
 <h2 id="euclid">euclid</h2>
 <ul>
 <li>euclid</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1306">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1345">github</a></li>
 </ul>
 <pre><code class="language-cpp">int euclid_gcd(int a, int b){
     if (b==0) return a;
@@ -1386,7 +1425,7 @@ int euclid_gcdExtended(int a, int b, int *x, int *y){
 <h2 id="easy_seive">easy_seive</h2>
 <ul>
 <li>easy_seive</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1331">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1370">github</a></li>
 </ul>
 <pre><code class="language-cpp">void ez_seive(int n){
      vector&lt;bool&gt; prime(n,1);
@@ -1405,7 +1444,7 @@ for (int p = 2; p &lt;= n; p++){
 <h2 id="troll">troll</h2>
 <ul>
 <li>troll</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1350">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1389">github</a></li>
 </ul>
 <pre><code class="language-cpp">// Assembly Generator: gcc -S -o temp.s fileName.cpp
 // Executable: gcc -o temp.exe fileName.cpp
