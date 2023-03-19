@@ -1,7 +1,7 @@
 const {readFile, writeFile} = require("fs/promises"); 
 const base = "https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json";
 const raw = "https://raw.githubusercontent.com/theSoberSobber/CP-Snippets/main/snippets.json";
-const self="";
+const self="", cf="", gh="", ld="";
 (async () => { 
     let file = await JSON.parse(await readFile('./snippets.json', 'utf8')); 
     let links = ""; 
