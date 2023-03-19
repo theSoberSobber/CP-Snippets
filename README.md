@@ -1,8 +1,9 @@
 ```bash
 curl -L "https://raw.githubusercontent.com/theSoberSobber/CP-Snippets/main/snippets.json" > snippets.json
-``` 
+```
 ---
 # Index - 
+
 
 - **[bp](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2)** : bp 
 - **[gr-inp-wt](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L80)** : graph input weight 
