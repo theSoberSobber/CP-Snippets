@@ -3,7 +3,7 @@
 | - | - | - | - |
         
 ## About
-        
+
 A collection of CPP Snippets to aid in competetive programming. <br />
 This site was auto generated with the help of [marked](https://www.npmjs.com/package/marked).
 ---        
