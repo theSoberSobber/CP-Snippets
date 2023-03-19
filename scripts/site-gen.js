@@ -71,7 +71,17 @@ ${code}
         links += `
 - **[${i}](${self}/${i})** : ${file[i].description} `;
         } 
-        let topics = `\`\`\`bash
+        let topics = `# CP Snippets
+| [About](${self}) | [Codeforces](${cf}) | [GitHub](${gh}) | [LinkedIn](${ld}) |
+| - | - | - | - |
+        
+## About
+        
+A collection of CPP Snippets to aid in competetive programming. <br />
+This site was auto generated with the help of [marked](https://www.npmjs.com/package/marked).
+---        
+
+\`\`\`bash
 curl -L "${raw}" > snippets.json
 \`\`\`
 ---
@@ -124,9 +134,9 @@ class Solution {
 \`\`\`
 `;
 
-    await writeFile('./docs/README.md', topics);
+    await writeFile('./docs/temp-index.md', topics);
     await writeFile('./docs/sample-code.md', sampleCode) 
     const html = css+marked.parse(final);
     await writeFile('./docs/temp.html', html);
-    await genPdf("codebook.pdf",html);
+    // await genPdf("codebook.pdf",html);
 })();
