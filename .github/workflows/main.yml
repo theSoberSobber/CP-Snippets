@@ -19,7 +19,7 @@ jobs:
     - name: Generate snippets.json [using codes folder]
       run: |
         npm run gen-snip-file
-        cat auto-snippets.json
+        cat snippets.json
     - name: Update README [using snippets.json]
       run: |-
         npm run gen-index
