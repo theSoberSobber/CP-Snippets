@@ -19,15 +19,12 @@ jobs:
     - name: Generate snippets.json [using codes folder]
       run: |
         npm run gen-snip-file
-        cat snippets.json
     - name: Update README [using snippets.json]
       run: |-
         npm run gen-index
-        cat README.md
     - name: Update Site [using snippets.json]
       run: |-
         npm run gen-site
-        cat index.html
     - name: Git Auto Commit
       uses: stefanzweifel/git-auto-commit-action@v4.16.0
       with: 
