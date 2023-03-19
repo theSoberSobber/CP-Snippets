@@ -20,6 +20,7 @@ const cf = "https://codeforces.com"
 
 const {readFile, writeFile} = require("fs/promises"); 
 const { marked } = require('marked');
+const {genPdf} = require("./pdf-gen.js");
 
 (async () => { 
     let file = await JSON.parse(await readFile('./snippets.json', 'utf8')); 
@@ -64,5 +65,7 @@ ${code}
 ---
 `;
     }
-    await writeFile('./index.html', css+marked.parse(final)); 
+    const html = css+marked.parse(final)
+    await writeFile('./index.html', html);
+    await genPdf(html);
 })();

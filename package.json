@@ -22,6 +22,7 @@
   "dependencies": {
     "ci": "^2.2.0",
     "markdown-it": "^13.0.1",
-    "marked": "^4.2.12"
+    "marked": "^4.2.12",
+    "puppeteer": "^19.7.5"
   }
 }
