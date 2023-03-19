@@ -135,6 +135,7 @@ class Solution {
 `;
 
     await writeFile('./docs/temp-index.md', topics);
+    await writeFile('./docs/README.md', topics);
     await writeFile('./docs/sample-code.md', sampleCode) 
     const html = css+marked.parse(final);
     await writeFile('./docs/temp.html', html);
