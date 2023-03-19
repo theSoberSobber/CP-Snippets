@@ -15,17 +15,12 @@ const raw = "https://raw.githubusercontent.com/theSoberSobber/CP-Snippets/main/s
         links += `
 - **[${i}](${base}#L${pre[i]})** : ${file[i].description} `;
     } 
-    let topics = `
-
-   \`\`\`bash
-   curl -L "${raw}" > snippets.json
-   \`\`\`
-    
+    let topics = `\`\`\`bash
+curl -L "${raw}" > snippets.json
+\`\`\`
 ---
+# Index - 
 
-    # Index - 
-
---- 
 ${links}`; 
     await writeFile('./README.md', topics); 
 })();
