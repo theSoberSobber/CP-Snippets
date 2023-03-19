@@ -16,15 +16,22 @@ jobs:
     - name: Install dependencies
       run: |
         npm install
-    - name: Update README
+    - name: Generate snippets.json [using codes folder]
+      run: |
+        npm run gen-snip-file
+        cat auto-snippets.json
+    - name: Update README [using snippets.json]
       run: |-
-        npm run start
+        npm run gen-index
         cat README.md
-    - name: Update Site
+    - name: Update Site [using snippets.json]
       run: |-
-        npm run build-site
+        npm run gen-site
         cat index.html
     - name: Git Auto Commit
       uses: stefanzweifel/git-auto-commit-action@v4.16.0
       with: 
-        commit_message: "Chore: README+Site"
+        commit_message: "Chore: build snippet, index, site"
+        commit_user_name: theSoberSobber
+        commit_user_email: akshatshrivastava0010@gmail.com
+        commit_author: theSoberSobber

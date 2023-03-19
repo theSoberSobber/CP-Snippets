@@ -4,8 +4,10 @@
   "description": "- bitset\r - seg, fen, link, block\r - static range sum\r - binse tern\r - tarjan, dfs tree",
   "main": "index.js",
   "scripts": {
-    "start": "node ./scripts/index-gen.js",
-    "build-site": "node ./scripts/site-gen.js"
+    "gen-index": "node ./scripts/index-gen.js",
+    "gen-site": "node ./scripts/site-gen.js",
+    "gen-code-files": "./scripts/clean-up.sh && node ./scripts/code-gen.js",
+    "gen-snip-file": "node ./scripts/folder-to-snippet-file.js"
   },
   "repository": {
     "type": "git",

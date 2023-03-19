@@ -22,3 +22,4 @@
 - generate initial snippets folder from snippets.json using site-gen's JSON to code generation module
 - make the index variables global and import them
 - move site and gh page deployment to a site folder
+- curl in readme to download snippet json file from raw github content

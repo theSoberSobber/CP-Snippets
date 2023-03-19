@@ -1,4 +1,12 @@
-# Index - 
+
+
+   ```bash
+   curl -L "https://raw.githubusercontent.com/theSoberSobber/CP-Snippets/main/snippets.json" > snippets.json
+   ```
+    
+---
+
+    # Index - 
 
 --- 
 
