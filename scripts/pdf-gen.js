@@ -1,12 +1,12 @@
 const puppeteer = require('puppeteer');
 
-const genPdf = async (html) => {
+const genPdf = async (name, html) => {
     const browser = await puppeteer.launch({headless:true});
     const page = await browser.newPage();
     await page.setContent(html, { waitUntil: 'domcontentloaded' });
     await page.emulateMediaType('screen'); // to emulate css on screen, instead of printer
     await page.pdf({
-        path: `codebook.pdf`,
+        path: name,
         margin: { top: '100px', right: '50px', bottom: '100px', left: '50px' },
         printBackground: true,
         format: 'A4',

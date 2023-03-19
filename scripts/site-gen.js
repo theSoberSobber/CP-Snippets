@@ -65,7 +65,7 @@ ${code}
 ---
 `;
     }
-    const html = css+marked.parse(final)
-    await writeFile('./index.html', html);
-    await genPdf(html);
+    const html = css+marked.parse(final);
+    await writeFile('./site/index.html', html);
+    await genPdf("codebook.pdf",html);
 })();
