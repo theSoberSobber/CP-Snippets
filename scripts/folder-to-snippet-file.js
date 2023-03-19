@@ -22,5 +22,5 @@ const { generateSnippet } = require("./snippet-gen.js");
     snipFile=snipFile.substring(0, snipFile.length-2);
     snipFile+=`
 }`;
-    writeFile("./auto-snippets.json", snipFile);
+    writeFile("./snippets.json", snipFile);
 })();

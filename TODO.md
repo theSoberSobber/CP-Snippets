@@ -8,6 +8,11 @@
 
 # Repo - 
 
+- FIGURE OUT HOW TO ORDER THIS NOT IN LEXOGRAPHICAL ORDER, impossible kinda cus file system
+- ACTUALLY DOCUMENT IT
+- MULTI PAGE SITE
+- TEMPLATE THIS
+- PDF GENERATION
 - make it actually look good (Done, kinda)
 - map the gh index to anchor tags by ids of the html page
 - make a frontend for the snippet-gen script
