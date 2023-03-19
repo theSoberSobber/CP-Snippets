@@ -17,6 +17,7 @@ const self = "https://thesobersobber.github.io/CP-Snippets";
 const gh = "https://github.com/theSoberSobber"; 
 const ld = "https://www.linkedin.com/in/pavitchhabrawork"
 const cf = "https://codeforces.com"
+const raw = "https://raw.githubusercontent.com/theSoberSobber/CP-Snippets/main/snippets.json";
 
 const {readFile, writeFile} = require("fs/promises"); 
 const { marked } = require('marked');
