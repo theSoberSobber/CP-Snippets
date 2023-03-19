@@ -31,8 +31,7 @@ const {genPdf} = require("./pdf-gen.js");
         pre[i]=t; 
         t+=file[i].body.length+6; 
     }
-    let final=`
-# CP Snippets
+    let final=`# CP Snippets
 
 | [About](${self}) | [Codeforces](${cf}) | [GitHub](${gh}) | [LinkedIn](${ld}) |
 | - | - | - | - |
@@ -65,7 +64,67 @@ ${code}
 ---
 `;
     }
+    for(let i in file){ 
+        const lno=1; 
+        links += `
+- **[${i}](${self}/${i})** : ${file[i].description} `;
+        } 
+        let topics = `\`\`\`bash
+curl -L "${raw}" > snippets.json
+\`\`\`
+---
+# Index - 
+
+${links}`; 
+
+const sampleCode = `
+## dsu-rr
+
+- dsu-rr
+- [github](${base}#L${27})
+
+\`\`\`cpp
+//dsu-rr
+//dsu-rr
+
+class Solution {
+    struct DSU
+    {
+        vector<int> siz,parent;
+        void init()
+        {
+            siz.resize(26);
+            parent.resize(26);
+            for(int i=0;i<26;i++)
+            {
+                siz[i]=1;
+                parent[i]=i;
+            }
+        }
+        int leader(int ex)
+        {
+            if(ex==parent[ex])
+                return ex;
+            return parent[ex]=leader(parent[ex]);
+        }
+        void merge(int a,int b)
+        {
+            a=leader(a);
+            b=leader(b);
+            if(a==b)
+                return;
+            if(siz[a]<siz[b])
+                swap(a,b);
+            siz[a]+=siz[b];
+            parent[b]=parent[a];
+        }
+    };
+\`\`\`
+`;
+
+    await writeFile('./docs/README.md', topics);
+    await writeFile('./docs/sample-code.md', sampleCode) 
     const html = css+marked.parse(final);
-    await writeFile('./site/index.html', html);
+    await writeFile('./docs/temp.html', html);
     await genPdf("codebook.pdf",html);
 })();
