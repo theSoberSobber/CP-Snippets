@@ -1049,10 +1049,27 @@ template&lt;class key, class value, class cmp = std::less&lt;key&gt;&gt; using o
 priority_queue&lt;int, vector&lt;int&gt;, greater&lt;&gt;&gt; pq;
 </code></pre>
 <hr>
+<h2 id="recur-binsearch">recur-binsearch</h2>
+<ul>
+<li>recursive binary search implementation to make intution easier ig</li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L995">github</a></li>
+</ul>
+<pre><code class="language-cpp">auto check = [&amp;](int mid) {
+      // smthing here
+      return bool ();
+};
+function&lt;int(int,int)&gt; recur_binsearch = [&amp;](int lo, int hi) {
+  if(hi&lt;=lo) return lo;
+  int mid=(lo+hi)/2;
+  if(check(mid)) return recur_binsearch(lo, mid-1);
+  return recur_binsearch(mid+1, hi);
+}
+</code></pre>
+<hr>
 <h2 id="recur-modpow">recur-modpow</h2>
 <ul>
 <li>recur-modpow</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L995">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1012">github</a></li>
 </ul>
 <pre><code class="language-cpp">int power(int x, int y){
     if (y==0) return 1;
@@ -1068,7 +1085,7 @@ priority_queue&lt;int, vector&lt;int&gt;, greater&lt;&gt;&gt; pq;
 <h2 id="rng">rng</h2>
 <ul>
 <li>rng</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1011">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1028">github</a></li>
 </ul>
 <pre><code class="language-cpp">//random generator
 mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
@@ -1078,7 +1095,7 @@ ll rnd(ll a,ll b){if(a &gt; b){return -1;}return a + (ll)rng() % (b - a + 1);}
 <h2 id="segtree">segtree</h2>
 <ul>
 <li>sextree</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1020">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1037">github</a></li>
 </ul>
 <pre><code class="language-cpp">template&lt;class T, class U&gt;
 // T -&gt; node, U-&gt;update.
@@ -1193,7 +1210,7 @@ struct Lsegtree{
 <h2 id="seive">seive</h2>
 <ul>
 <li>seive</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1134">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1151">github</a></li>
 </ul>
 <pre><code class="language-cpp">vector&lt;bool&gt; Prime;
 vector&lt;int&gt; spf;
@@ -1211,7 +1228,7 @@ void sieve(int s = maxn) {
 <h2 id="tokenizer">tokenizer</h2>
 <ul>
 <li>tokenizer that has no use</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1152">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1169">github</a></li>
 </ul>
 <pre><code class="language-cpp">vec(string) tokenizer(string str,char ch) {std::istringstream var((str)); vec(string) v; string t; while(getline((var), t, (ch))) {v.pb(t);} return v;}
 </code></pre>
@@ -1219,7 +1236,7 @@ void sieve(int s = maxn) {
 <h2 id="totient-seive">totient-seive</h2>
 <ul>
 <li>totient-seive</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1159">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1176">github</a></li>
 </ul>
 <pre><code class="language-cpp">  for (int i = 1; i &lt; MN; i++)
     phi[i] = i;
@@ -1233,7 +1250,7 @@ void sieve(int s = maxn) {
 <h2 id="totient">totient</h2>
 <ul>
 <li>totient</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1173">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1190">github</a></li>
 </ul>
 <pre><code class="language-cpp">long long totient(long long n) {
   if (n == 1) return 0;
@@ -1254,7 +1271,7 @@ void sieve(int s = maxn) {
 <h2 id="trie">trie</h2>
 <ul>
 <li>trie</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1193">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1210">github</a></li>
 </ul>
 <pre><code class="language-cpp">struct Trie{
     struct node{
@@ -1290,7 +1307,7 @@ void sieve(int s = maxn) {
 <h2 id="troll">troll</h2>
 <ul>
 <li>troll</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1229">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1246">github</a></li>
 </ul>
 <pre><code class="language-cpp">// Assembly Generator: gcc -S -o temp.s fileName.cpp
 // Executable: gcc -o temp.exe fileName.cpp
@@ -1301,7 +1318,7 @@ void sieve(int s = maxn) {
 <h2 id="two-sat-kosaraju">two-sat (kosaraju)</h2>
 <ul>
 <li>two-sat (kosaraju)</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1239">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1256">github</a></li>
 </ul>
 <pre><code class="language-cpp">/**
  *  Given a set of clauses (a1 v a2)^(a2 v ¬a3)....
@@ -1440,7 +1457,7 @@ int main() {
 <h2 id="xor-basis">xor-basis</h2>
 <ul>
 <li>xor-basis</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1376">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1393">github</a></li>
 </ul>
 <pre><code class="language-cpp">struct XorBasis{
     private:
