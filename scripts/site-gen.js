@@ -64,7 +64,7 @@ ${links}`;
     const html = css+marked.parse(index);
     await writeFile('./temp.md', index);
     await writeFile('./docs/index.html', html);
-    // await genPdf("codebook.pdf", html);
+    await genPdf("codebook.pdf", html);
 
 
     for(let topic in file){
