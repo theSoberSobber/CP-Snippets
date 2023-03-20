@@ -1,7 +1,14 @@
-# CP Snippets
-| [About](https://thesobersobber.github.io/CP-Snippets) | [Codeforces](https://codeforces.com) | [GitHub](https://github.com/theSoberSobber) | [LinkedIn](https://www.linkedin.com/in/pavitchhabrawork) |
-| - | - | - | - |
-        
+---
+About: https://thesobersobber.github.io/CP-Snippets
+Codeforces: https://codeforces.com
+GitHub: https://github.com/theSoberSobber
+LinkedIn: https://www.linkedin.com/in/pavitchhabrawork
+---
+
+<!-- | [About](https://thesobersobber.github.io/CP-Snippets) | [Codeforces](https://codeforces.com) | [GitHub](https://github.com/theSoberSobber) | [LinkedIn](https://www.linkedin.com/in/pavitchhabrawork) |
+| - | - | - | - | -->
+
+
 ## About
         
 A collection of CPP Snippets to aid in competetive programming. <br />
