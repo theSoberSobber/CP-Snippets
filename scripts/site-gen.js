@@ -20,6 +20,7 @@ const cf = "https://codeforces.com";
 const raw = "https://raw.githubusercontent.com/theSoberSobber/CP-Snippets/main/snippets.json";
 
 
+const { BADHINTS } = require("dns");
 const {readFile, writeFile, open} = require("fs/promises"); 
 const { marked } = require('marked');
 const {genPdf} = require("./pdf-gen.js");
@@ -78,8 +79,10 @@ ${links}`;
 ## ${topic}
 
 - ${file[topic].description}
-- [Shareable Link](${self}/${file[topic].prefix})
-- [github](${base}#L${pre[topic]})
+- \`\`\`
+  ${self}/${file[topic].prefix}
+  \`\`\`
+- [github-snip-file](${base}#L${pre[topic]})
 
 \`\`\`cpp
 ${code}
