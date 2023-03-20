@@ -3,7 +3,7 @@
 
 - pbds
 - [Shareable Link](https://thesobersobber.github.io/CP-Snippets/pbds)
-- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L973)
+- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L972)
 
 ```cpp
 #include <ext/pb_ds/assoc_container.hpp>

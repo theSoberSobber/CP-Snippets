@@ -3,7 +3,7 @@
 
 - recur-modpow
 - [Shareable Link](https://thesobersobber.github.io/CP-Snippets/recur-modpow)
-- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1014)
+- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1012)
 
 ```cpp
 int power(int x, int y){

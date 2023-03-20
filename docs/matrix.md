@@ -3,7 +3,7 @@
 
 - matrix
 - [Shareable Link](https://thesobersobber.github.io/CP-Snippets/matrix)
-- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L847)
+- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L846)
 
 ```cpp
 const int MN  = 111;

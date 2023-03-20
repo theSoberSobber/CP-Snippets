@@ -3,7 +3,7 @@
 
 - kosaraju
 - [Shareable Link](https://thesobersobber.github.io/CP-Snippets/kosaraju)
-- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L645)
+- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L644)
 
 ```cpp
 class Graph {

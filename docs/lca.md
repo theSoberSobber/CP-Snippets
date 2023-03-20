@@ -3,7 +3,7 @@
 
 - LCA path satisfying some condition
 - [Shareable Link](https://thesobersobber.github.io/CP-Snippets/lca)
-- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L755)
+- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L754)
 
 ```cpp
 constexpr int N = 5; // No. of vertices

@@ -602,10 +602,9 @@
 	"interactive": {
 		"prefix":"interactive",
 		"body": [
-			"",
 			"void solve(){",
 			"    int n; cin>>n;",
-			"",
+			"    ",
 			"    auto querySystem = [&](int l, int r) {",
 			"        // print your query",
 			"        cout<<r-l+1<<endl;",
@@ -618,7 +617,7 @@
 			"    // write your logic here and use querySystem to receive answer to query",
 			"    // do a cout<<endl after each cout",
 			"",
-			"",
+			"    ",
 			"    cout<<endl;",
 			"}",
 			""
@@ -996,7 +995,6 @@
 	"recur-binsearch": {
 		"prefix":"recur-binsearch",
 		"body": [
-			"",
 			"auto check = [&](int mid) {",
 			"      // smthing here",
 			"      return bool ();",

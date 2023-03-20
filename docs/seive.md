@@ -3,7 +3,7 @@
 
 - seive
 - [Shareable Link](https://thesobersobber.github.io/CP-Snippets/seive)
-- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1153)
+- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1151)
 
 ```cpp
 vector<bool> Prime;

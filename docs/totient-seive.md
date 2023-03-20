@@ -3,7 +3,7 @@
 
 - totient-seive
 - [Shareable Link](https://thesobersobber.github.io/CP-Snippets/totient-seive)
-- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1178)
+- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1176)
 
 ```cpp
   for (int i = 1; i < MN; i++)

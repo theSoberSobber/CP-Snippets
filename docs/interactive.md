@@ -6,10 +6,9 @@
 - [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L602)
 
 ```cpp
-
 void solve(){
     int n; cin>>n;
-
+    
     auto querySystem = [&](int l, int r) {
         // print your query
         cout<<r-l+1<<endl;
@@ -22,7 +21,7 @@ void solve(){
     // write your logic here and use querySystem to receive answer to query
     // do a cout<<endl after each cout
 
-
+    
     cout<<endl;
 }
 

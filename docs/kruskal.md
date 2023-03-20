@@ -3,7 +3,7 @@
 
 - kruskal
 - [Shareable Link](https://thesobersobber.github.io/CP-Snippets/kruskal)
-- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L725)
+- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L724)
 
 ```cpp
 auto kruskalMST(vector<Edge> &edges, int V){

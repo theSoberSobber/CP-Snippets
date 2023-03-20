@@ -3,7 +3,7 @@
 
 - lambda_function
 - [Shareable Link](https://thesobersobber.github.io/CP-Snippets/lambda_function)
-- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L746)
+- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L745)
 
 ```cpp
 auto check = [&](ll mid) {

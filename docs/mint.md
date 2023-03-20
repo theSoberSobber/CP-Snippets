@@ -3,7 +3,7 @@
 
 - modular integer
 - [Shareable Link](https://thesobersobber.github.io/CP-Snippets/mint)
-- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L898)
+- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L897)
 
 ```cpp
 struct mi {

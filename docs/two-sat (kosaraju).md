@@ -3,7 +3,7 @@
 
 - two-sat (kosaraju)
 - [Shareable Link](https://thesobersobber.github.io/CP-Snippets/two-sat (kosaraju))
-- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1258)
+- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1256)
 
 ```cpp
 /**

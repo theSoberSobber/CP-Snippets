@@ -1,13 +1,3 @@
-
-| [About]() | [Codeforces]() | [GitHub]() | [LinkedIn]() |
-| - | - | - | - |
-        
-## About
-        
-A collection of CPP Snippets to aid in competetive programming. <br />
-This site was auto generated with the help of [marked](https://www.npmjs.com/package/marked).
----        
-
 ```bash
 curl -L "https://raw.githubusercontent.com/theSoberSobber/CP-Snippets/main/snippets.json" > snippets.json
 ```
@@ -21,7 +11,7 @@ curl -L "https://raw.githubusercontent.com/theSoberSobber/CP-Snippets/main/snipp
 - **[binpow](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L53)** : binpow 
 - **[binsearch](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L68)** : binsearch 
 - **[bp](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L89)** : bp 
-- **[clock for TL](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L167)** : clock 
+- **[clock_for_TL](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L167)** : clock 
 - **[combination-non-mod](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L179)** : combination-non-mod 
 - **[combination-small](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L196)** : combination-small 
 - **[combination](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L212)** : combination 
