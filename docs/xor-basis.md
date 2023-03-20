@@ -2,8 +2,10 @@
 ## xor-basis
 
 - xor-basis
-- [Shareable Link](https://thesobersobber.github.io/CP-Snippets/xor-basis)
-- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1393)
+- ```
+  https://thesobersobber.github.io/CP-Snippets/xor-basis
+  ```
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1393)
 
 ```cpp
 struct XorBasis{

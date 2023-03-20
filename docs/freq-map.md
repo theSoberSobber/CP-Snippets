@@ -2,8 +2,10 @@
 ## freq-map
 
 - freq-map
-- [Shareable Link](https://thesobersobber.github.io/CP-Snippets/freq-map)
-- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L550)
+- ```
+  https://thesobersobber.github.io/CP-Snippets/freq-map
+  ```
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L550)
 
 ```cpp
 map<int, int> m;

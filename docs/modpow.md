@@ -2,8 +2,10 @@
 ## modpow
 
 - modpow
-- [Shareable Link](https://thesobersobber.github.io/CP-Snippets/modpow)
-- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L956)
+- ```
+  https://thesobersobber.github.io/CP-Snippets/modpow
+  ```
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L956)
 
 ```cpp
 ll modpow(ll a, ll b){

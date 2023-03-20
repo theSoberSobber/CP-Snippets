@@ -2,8 +2,10 @@
 ## interactive
 
 - essential measures for interactive problems
-- [Shareable Link](https://thesobersobber.github.io/CP-Snippets/interactive)
-- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L602)
+- ```
+  https://thesobersobber.github.io/CP-Snippets/interactive
+  ```
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L602)
 
 ```cpp
 void solve(){

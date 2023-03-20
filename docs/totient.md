@@ -2,8 +2,10 @@
 ## totient
 
 - totient
-- [Shareable Link](https://thesobersobber.github.io/CP-Snippets/totient)
-- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1190)
+- ```
+  https://thesobersobber.github.io/CP-Snippets/totient
+  ```
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1190)
 
 ```cpp
 long long totient(long long n) {

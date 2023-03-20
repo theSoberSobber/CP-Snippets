@@ -2,8 +2,10 @@
 ## trie
 
 - trie
-- [Shareable Link](https://thesobersobber.github.io/CP-Snippets/trie)
-- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1210)
+- ```
+  https://thesobersobber.github.io/CP-Snippets/trie
+  ```
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1210)
 
 ```cpp
 struct Trie{

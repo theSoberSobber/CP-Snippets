@@ -2,8 +2,10 @@
 ## segtree
 
 - sextree
-- [Shareable Link](https://thesobersobber.github.io/CP-Snippets/segtree)
-- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1037)
+- ```
+  https://thesobersobber.github.io/CP-Snippets/segtree
+  ```
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1037)
 
 ```cpp
 template<class T, class U>

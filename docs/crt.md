@@ -2,8 +2,10 @@
 ## crt
 
 - crt
-- [Shareable Link](https://thesobersobber.github.io/CP-Snippets/crt)
-- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L225)
+- ```
+  https://thesobersobber.github.io/CP-Snippets/crt
+  ```
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L225)
 
 ```cpp
 /**

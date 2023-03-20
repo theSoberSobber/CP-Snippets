@@ -2,8 +2,10 @@
 ## fac
 
 - fac
-- [Shareable Link](https://thesobersobber.github.io/CP-Snippets/fac)
-- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L456)
+- ```
+  https://thesobersobber.github.io/CP-Snippets/fac
+  ```
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L456)
 
 ```cpp
 int fac[maxn];

@@ -2,8 +2,10 @@
 ## file_io
 
 - for coding competetions
-- [Shareable Link](https://thesobersobber.github.io/CP-Snippets/file_io)
-- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L540)
+- ```
+  https://thesobersobber.github.io/CP-Snippets/file_io
+  ```
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L540)
 
 ```cpp
 void file_i_o(){

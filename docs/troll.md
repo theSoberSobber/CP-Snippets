@@ -2,8 +2,10 @@
 ## troll
 
 - troll
-- [Shareable Link](https://thesobersobber.github.io/CP-Snippets/troll)
-- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1246)
+- ```
+  https://thesobersobber.github.io/CP-Snippets/troll
+  ```
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1246)
 
 ```cpp
 // Assembly Generator: gcc -S -o temp.s fileName.cpp

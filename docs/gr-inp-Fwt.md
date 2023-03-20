@@ -2,8 +2,10 @@
 ## gr-inp-Fwt
 
 - graph input weight
-- [Shareable Link](https://thesobersobber.github.io/CP-Snippets/gr-inp-Fwt)
-- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L561)
+- ```
+  https://thesobersobber.github.io/CP-Snippets/gr-inp-Fwt
+  ```
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L561)
 
 ```cpp
 int e=f(n);

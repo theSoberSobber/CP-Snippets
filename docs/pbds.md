@@ -2,8 +2,10 @@
 ## pbds
 
 - pbds
-- [Shareable Link](https://thesobersobber.github.io/CP-Snippets/pbds)
-- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L972)
+- ```
+  https://thesobersobber.github.io/CP-Snippets/pbds
+  ```
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L972)
 
 ```cpp
 #include <ext/pb_ds/assoc_container.hpp>

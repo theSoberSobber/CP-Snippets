@@ -2,8 +2,10 @@
 ## gr-inp
 
 - graph input
-- [Shareable Link](https://thesobersobber.github.io/CP-Snippets/gr-inp)
-- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L574)
+- ```
+  https://thesobersobber.github.io/CP-Snippets/gr-inp
+  ```
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L574)
 
 ```cpp
 int e=f(n);

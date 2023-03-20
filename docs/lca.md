@@ -2,8 +2,10 @@
 ## lca
 
 - LCA path satisfying some condition
-- [Shareable Link](https://thesobersobber.github.io/CP-Snippets/lca)
-- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L754)
+- ```
+  https://thesobersobber.github.io/CP-Snippets/lca
+  ```
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L754)
 
 ```cpp
 constexpr int N = 5; // No. of vertices

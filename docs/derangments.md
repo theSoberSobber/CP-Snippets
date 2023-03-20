@@ -2,8 +2,10 @@
 ## derangments
 
 - derangments
-- [Shareable Link](https://thesobersobber.github.io/CP-Snippets/derangments)
-- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L249)
+- ```
+  https://thesobersobber.github.io/CP-Snippets/derangments
+  ```
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L249)
 
 ```cpp
 int countDerangements(int n){

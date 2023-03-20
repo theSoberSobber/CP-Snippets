@@ -2,8 +2,10 @@
 ## matrix
 
 - matrix
-- [Shareable Link](https://thesobersobber.github.io/CP-Snippets/matrix)
-- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L846)
+- ```
+  https://thesobersobber.github.io/CP-Snippets/matrix
+  ```
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L846)
 
 ```cpp
 const int MN  = 111;

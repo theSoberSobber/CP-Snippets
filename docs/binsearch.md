@@ -2,8 +2,10 @@
 ## binsearch
 
 - binsearch
-- [Shareable Link](https://thesobersobber.github.io/CP-Snippets/binsearch)
-- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L68)
+- ```
+  https://thesobersobber.github.io/CP-Snippets/binsearch
+  ```
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L68)
 
 ```cpp
 int lo = 0, hi = n-1;

@@ -2,8 +2,10 @@
 ## mint
 
 - modular integer
-- [Shareable Link](https://thesobersobber.github.io/CP-Snippets/mint)
-- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L897)
+- ```
+  https://thesobersobber.github.io/CP-Snippets/mint
+  ```
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L897)
 
 ```cpp
 struct mi {

@@ -2,8 +2,10 @@
 ## factorization
 
 - factorization
-- [Shareable Link](https://thesobersobber.github.io/CP-Snippets/factorization)
-- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L470)
+- ```
+  https://thesobersobber.github.io/CP-Snippets/factorization
+  ```
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L470)
 
 ```cpp
 void printFactors(int n) { 

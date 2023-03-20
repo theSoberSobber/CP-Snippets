@@ -2,8 +2,10 @@
 ## log
 
 - log
-- [Shareable Link](https://thesobersobber.github.io/CP-Snippets/log)
-- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L815)
+- ```
+  https://thesobersobber.github.io/CP-Snippets/log
+  ```
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L815)
 
 ```cpp
 // Computes x which a ^ x = b mod n.

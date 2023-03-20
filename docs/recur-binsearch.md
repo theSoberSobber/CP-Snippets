@@ -2,8 +2,10 @@
 ## recur-binsearch
 
 - recursive binary search implementation to make intution easier ig
-- [Shareable Link](https://thesobersobber.github.io/CP-Snippets/recur-binsearch)
-- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L995)
+- ```
+  https://thesobersobber.github.io/CP-Snippets/recur-binsearch
+  ```
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L995)
 
 ```cpp
 auto check = [&](int mid) {

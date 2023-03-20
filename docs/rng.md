@@ -2,8 +2,10 @@
 ## rng
 
 - rng
-- [Shareable Link](https://thesobersobber.github.io/CP-Snippets/rng)
-- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1028)
+- ```
+  https://thesobersobber.github.io/CP-Snippets/rng
+  ```
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1028)
 
 ```cpp
 //random generator

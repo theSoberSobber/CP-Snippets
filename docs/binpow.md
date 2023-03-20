@@ -2,8 +2,10 @@
 ## binpow
 
 - binpow
-- [Shareable Link](https://thesobersobber.github.io/CP-Snippets/binpow)
-- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L53)
+- ```
+  https://thesobersobber.github.io/CP-Snippets/binpow
+  ```
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L53)
 
 ```cpp
 ll binpow(ll x, ll y){

@@ -2,8 +2,10 @@
 ## highest_exponent
 
 - power_in_fac
-- [Shareable Link](https://thesobersobber.github.io/CP-Snippets/highest_exponent)
-- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L587)
+- ```
+  https://thesobersobber.github.io/CP-Snippets/highest_exponent
+  ```
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L587)
 
 ```cpp
 int highest_exponent(int p, const int &n){

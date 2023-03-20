@@ -2,8 +2,10 @@
 ## arr-pref
 
 - arr-pref
-- [Shareable Link](https://thesobersobber.github.io/CP-Snippets/arr-pref)
-- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L45)
+- ```
+  https://thesobersobber.github.io/CP-Snippets/arr-pref
+  ```
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L45)
 
 ```cpp
 vector<int> pre(n, 0);

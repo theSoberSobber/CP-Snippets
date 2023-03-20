@@ -2,8 +2,10 @@
 ## DSU
 
 - DSU
-- [Shareable Link](https://thesobersobber.github.io/CP-Snippets/DSU)
-- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2)
+- ```
+  https://thesobersobber.github.io/CP-Snippets/DSU
+  ```
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2)
 
 ```cpp
 class DSU {

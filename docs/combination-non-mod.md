@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/combination-non-mod
   ```
-- [In-Snip-File](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L179)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L179)
 
 ```cpp
 vector<vector<int>> dp(n+1, vector<int> (k+1));

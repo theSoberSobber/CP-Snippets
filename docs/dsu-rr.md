@@ -2,8 +2,10 @@
 ## dsu-rr
 
 - dsu-rr
-- [Shareable Link](https://thesobersobber.github.io/CP-Snippets/dsu-rr)
-- [github](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L338)
+- ```
+  https://thesobersobber.github.io/CP-Snippets/dsu-rr
+  ```
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L338)
 
 ```cpp
 class Solution {
