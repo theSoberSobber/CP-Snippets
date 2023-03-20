@@ -40,6 +40,7 @@ curl -L "https://raw.githubusercontent.com/theSoberSobber/CP-Snippets/main/snipp
 - **[gr-inp-Fwt](https://thesobersobber.github.io/CP-Snippets/gr-inp-Fwt)** : graph input weight 
 - **[gr-inp](https://thesobersobber.github.io/CP-Snippets/gr-inp)** : graph input 
 - **[highest_exponent](https://thesobersobber.github.io/CP-Snippets/highest_exponent)** : power_in_fac 
+- **[interactive](https://thesobersobber.github.io/CP-Snippets/interactive)** : essential measures for interactive problems 
 - **[ip-overloads](https://thesobersobber.github.io/CP-Snippets/ip-overloads)** : I/O Overloads that I don't use 
 - **[kosaraju](https://thesobersobber.github.io/CP-Snippets/kosaraju)** : kosaraju 
 - **[kruskal](https://thesobersobber.github.io/CP-Snippets/kruskal)** : kruskal 

@@ -646,10 +646,35 @@ for(int i=1;i&lt;=e;i++){
 }
 </code></pre>
 <hr>
+<h2 id="interactive">interactive</h2>
+<ul>
+<li>essential measures for interactive problems</li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L602">github</a></li>
+</ul>
+<pre><code class="language-cpp">void solve(){
+    int n; cin&gt;&gt;n;
+    
+    auto querySystem = [&amp;](int l, int r) {
+        // print your query
+        cout&lt;&lt;r-l+1&lt;&lt;endl;
+        cout&lt;&lt;endl;
+        // receive and return reply from system
+        int wt; cin&gt;&gt;wt;
+        return wt;
+    };
+
+    // write your logic here and use querySystem to receive answer to query
+    // do a cout&lt;&lt;endl after each cout
+
+    
+    cout&lt;&lt;endl;
+}
+</code></pre>
+<hr>
 <h2 id="ip-overloads">ip-overloads</h2>
 <ul>
 <li>I/O Overloads that I don&#39;t use</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L602">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L627">github</a></li>
 </ul>
 <pre><code class="language-cpp">template&lt;typename T1, typename T2&gt; inline istream&amp; operator &gt;&gt; (istream&amp; in, pair&lt;T1,T2&gt;&amp; a) { in&gt;&gt;a.first&gt;&gt;a.second; return in; }
 template&lt;typename T1, typename T2&gt; inline ostream&amp; operator &lt;&lt; (ostream&amp; out, pair&lt;T1,T2&gt; a) { out&lt;&lt;a.first&lt;&lt;&quot; &quot;&lt;&lt;a.second; return out; }
@@ -668,7 +693,7 @@ void put(auto&amp;&amp;... args) { ((cout&lt;&lt;args&lt;&lt;&quot; &quot;), ...
 <h2 id="kosaraju">kosaraju</h2>
 <ul>
 <li>kosaraju</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L619">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L644">github</a></li>
 </ul>
 <pre><code class="language-cpp">class Graph {
  int V;
@@ -750,7 +775,7 @@ void Graph::printSCCs() {
 <h2 id="kruskal">kruskal</h2>
 <ul>
 <li>kruskal</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L699">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L724">github</a></li>
 </ul>
 <pre><code class="language-cpp">auto kruskalMST(vector&lt;Edge&gt; &amp;edges, int V){
     int cost = 0;
@@ -771,7 +796,7 @@ void Graph::printSCCs() {
 <h2 id="lambda_function">lambda_function</h2>
 <ul>
 <li>lambda_function</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L720">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L745">github</a></li>
 </ul>
 <pre><code class="language-cpp">auto check = [&amp;](ll mid) {
   return mid - (mid / n) &gt;= k;
@@ -781,7 +806,7 @@ void Graph::printSCCs() {
 <h2 id="lca">lca</h2>
 <ul>
 <li>LCA path satisfying some condition</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L729">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L754">github</a></li>
 </ul>
 <pre><code class="language-cpp">constexpr int N = 5; // No. of vertices
 constexpr int L = 4; // ceil(logN / log2) + 1
@@ -842,7 +867,7 @@ int dist(int a, int b){
 <h2 id="log">log</h2>
 <ul>
 <li>log</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L790">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L815">github</a></li>
 </ul>
 <pre><code class="language-cpp">// Computes x which a ^ x = b mod n.
 
@@ -874,7 +899,7 @@ long long d_log(long long a, long long b, long long n) {
 <h2 id="matrix">matrix</h2>
 <ul>
 <li>matrix</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L821">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L846">github</a></li>
 </ul>
 <pre><code class="language-cpp">const int MN  = 111;
 const int mod = 10000;
@@ -926,7 +951,7 @@ void matrix_pow(matrix b, long long e, matrix &amp;res) {
 <h2 id="mint">mint</h2>
 <ul>
 <li>modular integer</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L872">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L897">github</a></li>
 </ul>
 <pre><code class="language-cpp">struct mi {
     int64_t v; explicit operator int64_t() const { return v % mod; }
@@ -985,7 +1010,7 @@ void matrix_pow(matrix b, long long e, matrix &amp;res) {
 <h2 id="modpow">modpow</h2>
 <ul>
 <li>modpow</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L931">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L956">github</a></li>
 </ul>
 <pre><code class="language-cpp">ll modpow(ll a, ll b){
     a %= m;
@@ -1002,7 +1027,7 @@ void matrix_pow(matrix b, long long e, matrix &amp;res) {
 <h2 id="pbds">pbds</h2>
 <ul>
 <li>pbds</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L947">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L972">github</a></li>
 </ul>
 <pre><code class="language-cpp">#include &lt;ext/pb_ds/assoc_container.hpp&gt;
 #include &lt;ext/pb_ds/tree_policy.hpp&gt;
@@ -1018,7 +1043,7 @@ template&lt;class key, class value, class cmp = std::less&lt;key&gt;&gt; using o
 <h2 id="pq">pq</h2>
 <ul>
 <li>pq</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L962">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L987">github</a></li>
 </ul>
 <pre><code class="language-cpp">priority_queue&lt;int&gt; pq;
 priority_queue&lt;int, vector&lt;int&gt;, greater&lt;&gt;&gt; pq;
@@ -1027,7 +1052,7 @@ priority_queue&lt;int, vector&lt;int&gt;, greater&lt;&gt;&gt; pq;
 <h2 id="recur-modpow">recur-modpow</h2>
 <ul>
 <li>recur-modpow</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L970">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L995">github</a></li>
 </ul>
 <pre><code class="language-cpp">int power(int x, int y){
     if (y==0) return 1;
@@ -1043,7 +1068,7 @@ priority_queue&lt;int, vector&lt;int&gt;, greater&lt;&gt;&gt; pq;
 <h2 id="rng">rng</h2>
 <ul>
 <li>rng</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L986">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1011">github</a></li>
 </ul>
 <pre><code class="language-cpp">//random generator
 mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
@@ -1053,7 +1078,7 @@ ll rnd(ll a,ll b){if(a &gt; b){return -1;}return a + (ll)rng() % (b - a + 1);}
 <h2 id="segtree">segtree</h2>
 <ul>
 <li>sextree</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L995">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1020">github</a></li>
 </ul>
 <pre><code class="language-cpp">template&lt;class T, class U&gt;
 // T -&gt; node, U-&gt;update.
@@ -1168,7 +1193,7 @@ struct Lsegtree{
 <h2 id="seive">seive</h2>
 <ul>
 <li>seive</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1109">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1134">github</a></li>
 </ul>
 <pre><code class="language-cpp">vector&lt;bool&gt; Prime;
 vector&lt;int&gt; spf;
@@ -1186,7 +1211,7 @@ void sieve(int s = maxn) {
 <h2 id="tokenizer">tokenizer</h2>
 <ul>
 <li>tokenizer that has no use</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1127">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1152">github</a></li>
 </ul>
 <pre><code class="language-cpp">vec(string) tokenizer(string str,char ch) {std::istringstream var((str)); vec(string) v; string t; while(getline((var), t, (ch))) {v.pb(t);} return v;}
 </code></pre>
@@ -1194,7 +1219,7 @@ void sieve(int s = maxn) {
 <h2 id="totient-seive">totient-seive</h2>
 <ul>
 <li>totient-seive</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1134">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1159">github</a></li>
 </ul>
 <pre><code class="language-cpp">  for (int i = 1; i &lt; MN; i++)
     phi[i] = i;
@@ -1208,7 +1233,7 @@ void sieve(int s = maxn) {
 <h2 id="totient">totient</h2>
 <ul>
 <li>totient</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1148">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1173">github</a></li>
 </ul>
 <pre><code class="language-cpp">long long totient(long long n) {
   if (n == 1) return 0;
@@ -1229,7 +1254,7 @@ void sieve(int s = maxn) {
 <h2 id="trie">trie</h2>
 <ul>
 <li>trie</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1168">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1193">github</a></li>
 </ul>
 <pre><code class="language-cpp">struct Trie{
     struct node{
@@ -1265,7 +1290,7 @@ void sieve(int s = maxn) {
 <h2 id="troll">troll</h2>
 <ul>
 <li>troll</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1204">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1229">github</a></li>
 </ul>
 <pre><code class="language-cpp">// Assembly Generator: gcc -S -o temp.s fileName.cpp
 // Executable: gcc -o temp.exe fileName.cpp
@@ -1276,7 +1301,7 @@ void sieve(int s = maxn) {
 <h2 id="two-sat-kosaraju">two-sat (kosaraju)</h2>
 <ul>
 <li>two-sat (kosaraju)</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1214">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1239">github</a></li>
 </ul>
 <pre><code class="language-cpp">/**
  *  Given a set of clauses (a1 v a2)^(a2 v ¬a3)....
@@ -1415,7 +1440,7 @@ int main() {
 <h2 id="xor-basis">xor-basis</h2>
 <ul>
 <li>xor-basis</li>
-<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1351">github</a></li>
+<li><a href="https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1376">github</a></li>
 </ul>
 <pre><code class="language-cpp">struct XorBasis{
     private:
