@@ -20,7 +20,6 @@ const cf = "https://codeforces.com";
 const raw = "https://raw.githubusercontent.com/theSoberSobber/CP-Snippets/main/snippets.json";
 
 
-const { BADHINTS } = require("dns");
 const {readFile, writeFile, open} = require("fs/promises"); 
 const { marked } = require('marked');
 const {genPdf} = require("./pdf-gen.js");
@@ -87,7 +86,7 @@ ${links}`;
 \`\`\`cpp
 ${code}
 \`\`\`
-`;
+`;  
     await open(`./docs/${file[topic].prefix}.md`, 'w+');
     await writeFile(`./docs/${file[topic].prefix}.md`, oneFile);
     }
