@@ -46,6 +46,7 @@ curl -L "https://raw.githubusercontent.com/theSoberSobber/CP-Snippets/main/snipp
 - **[highest_exponent](https://thesobersobber.github.io/CP-Snippets/highest_exponent)** : power_in_fac 
 - **[interactive](https://thesobersobber.github.io/CP-Snippets/interactive)** : essential measures for interactive problems 
 - **[ip-overloads](https://thesobersobber.github.io/CP-Snippets/ip-overloads)** : I/O Overloads that I don't use 
+- **[kadane](https://thesobersobber.github.io/CP-Snippets/kadane)** : max subarray sum O(n) 
 - **[kosaraju](https://thesobersobber.github.io/CP-Snippets/kosaraju)** : kosaraju 
 - **[kruskal](https://thesobersobber.github.io/CP-Snippets/kruskal)** : kruskal 
 - **[lambda_function](https://thesobersobber.github.io/CP-Snippets/lambda_function)** : lambda_function 

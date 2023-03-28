@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/kruskal
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L724)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L740)
 
 ```cpp
 auto kruskalMST(vector<Edge> &edges, int V){
