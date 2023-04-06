@@ -30,6 +30,7 @@ curl -L "https://raw.githubusercontent.com/theSoberSobber/CP-Snippets/main/snipp
 - **[combination-small](https://thesobersobber.github.io/CP-Snippets/combination-small)** : combination-small 
 - **[combination](https://thesobersobber.github.io/CP-Snippets/combination)** : combination 
 - **[crt](https://thesobersobber.github.io/CP-Snippets/crt)** : crt 
+- **[cute-lcm](https://thesobersobber.github.io/CP-Snippets/cute-lcm)** : [a,b,c]=abc(a,b,c)/(a,b)(b,c)(c,a), where []=lcm adn ()=gcd or [a,b,c]=abc/gcd(ab,bc,ca) 
 - **[derangments](https://thesobersobber.github.io/CP-Snippets/derangments)** : derangments 
 - **[diophantine](https://thesobersobber.github.io/CP-Snippets/diophantine)** : linear diophantine 
 - **[dsu-rr](https://thesobersobber.github.io/CP-Snippets/dsu-rr)** : dsu-rr 
