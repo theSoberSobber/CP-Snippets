@@ -32,6 +32,7 @@ curl -L "https://raw.githubusercontent.com/theSoberSobber/CP-Snippets/main/snipp
 - **[crt](https://thesobersobber.github.io/CP-Snippets/crt)** : crt 
 - **[cute-lcm](https://thesobersobber.github.io/CP-Snippets/cute-lcm)** : [a,b,c]=abc(a,b,c)/(a,b)(b,c)(c,a), where []=lcm adn ()=gcd or [a,b,c]=abc/gcd(ab,bc,ca) 
 - **[derangments](https://thesobersobber.github.io/CP-Snippets/derangments)** : derangments 
+- **[dfs](https://thesobersobber.github.io/CP-Snippets/dfs)** : weird ass dfs 
 - **[diophantine](https://thesobersobber.github.io/CP-Snippets/diophantine)** : linear diophantine 
 - **[dsu-rr](https://thesobersobber.github.io/CP-Snippets/dsu-rr)** : dsu-rr 
 - **[easy_seive](https://thesobersobber.github.io/CP-Snippets/easy_seive)** : easy_seive 
