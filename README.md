@@ -44,15 +44,16 @@ curl -L "https://raw.githubusercontent.com/theSoberSobber/CP-Snippets/main/snipp
 - **[modpow](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L982)** : modpow 
 - **[pbds](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L998)** : pbds 
 - **[pq](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1013)** : pq 
-- **[recur-binsearch](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1021)** : recursive binary search implementation to make intution easier ig 
-- **[recur-modpow](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1038)** : recur-modpow 
-- **[rng](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1054)** : rng 
-- **[segtree](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1063)** : sextree 
-- **[seive](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1177)** : seive 
-- **[tokenizer](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1195)** : tokenizer that has no use 
-- **[totient-seive](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1202)** : totient-seive 
-- **[totient](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1216)** : totient 
-- **[trie](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1236)** : trie 
-- **[troll](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1272)** : troll 
-- **[two-sat (kosaraju)](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1282)** : two-sat (kosaraju) 
-- **[xor-basis](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1419)** : xor-basis 
+- **[prime-related-stuff](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1021)** : implements prime fac, fac list and is_prime in both space optimized and time optimized ways 
+- **[recur-binsearch](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1212)** : recursive binary search implementation to make intution easier ig 
+- **[recur-modpow](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1229)** : recur-modpow 
+- **[rng](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1245)** : rng 
+- **[segtree](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1254)** : sextree 
+- **[seive](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1368)** : seive 
+- **[tokenizer](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1386)** : tokenizer that has no use 
+- **[totient-seive](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1393)** : totient-seive 
+- **[totient](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1407)** : totient 
+- **[trie](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1427)** : trie 
+- **[troll](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1463)** : troll 
+- **[two-sat (kosaraju)](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1473)** : two-sat (kosaraju) 
+- **[xor-basis](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1610)** : xor-basis 
