@@ -59,6 +59,7 @@ curl -L "https://raw.githubusercontent.com/theSoberSobber/CP-Snippets/main/snipp
 - **[pbds](https://thesobersobber.github.io/CP-Snippets/pbds)** : pbds 
 - **[pq](https://thesobersobber.github.io/CP-Snippets/pq)** : pq 
 - **[prime-related-stuff](https://thesobersobber.github.io/CP-Snippets/prime-related-stuff)** : implements prime fac, fac list and is_prime in both space optimized and time optimized ways 
+- **[re-write](https://thesobersobber.github.io/CP-Snippets/read-write-fn-impl)** : a bunch of re and write functions based on template meta programming heklpful in cp. 
 - **[recur-binsearch](https://thesobersobber.github.io/CP-Snippets/recur-binsearch)** : recursive binary search implementation to make intution easier ig 
 - **[recur-modpow](https://thesobersobber.github.io/CP-Snippets/recur-modpow)** : recur-modpow 
 - **[rng](https://thesobersobber.github.io/CP-Snippets/rng)** : rng 

@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/recur-binsearch
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1212)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1234)
 
 ```cpp
 auto check = [&](int mid) {
