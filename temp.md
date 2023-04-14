@@ -64,6 +64,7 @@ curl -L "https://raw.githubusercontent.com/theSoberSobber/CP-Snippets/main/snipp
 - **[recur-binsearch](https://thesobersobber.github.io/CP-Snippets/recur-binsearch)** : recursive binary search implementation to make intution easier ig 
 - **[recur-modpow](https://thesobersobber.github.io/CP-Snippets/recur-modpow)** : recur-modpow 
 - **[rng](https://thesobersobber.github.io/CP-Snippets/rng)** : rng 
+- **[rr-segtree](https://thesobersobber.github.io/CP-Snippets/rr-segtree)** : best segtree 
 - **[segtree](https://thesobersobber.github.io/CP-Snippets/segtree)** : sextree 
 - **[seive](https://thesobersobber.github.io/CP-Snippets/seive)** : seive 
 - **[tokenizer](https://thesobersobber.github.io/CP-Snippets/tokenizer)** : tokenizer that has no use 
