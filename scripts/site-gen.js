@@ -48,7 +48,17 @@ The old version of site is available [here](${self}/old-index.html).
 
 `;
     let book=index;
-    let links="", rest="";
+    let links="";
+    let rest=`
+## About
+
+A collection of CPP Snippets to aid in competetive programming. <br />
+This site was auto generated with the help of [marked](https://www.npmjs.com/package/marked). <br />
+The old version of site is available [here](${self}/old-index.html).
+    
+---
+    
+`;
     for(let i in file){ 
         links += `
 - **[${i}](${self}/${file[i].prefix})** : ${file[i].description} `;
