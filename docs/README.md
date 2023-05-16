@@ -1,4 +1,13 @@
 
+## About
+
+A collection of CPP Snippets to aid in competetive programming. <br />
+This site was auto generated with the help of [marked](https://www.npmjs.com/package/marked). <br />
+The old version of site is available [here](https://thesobersobber.github.io/CP-Snippets/old-index.html).
+    
+---
+    
+
 ```bash
 curl -L "https://raw.githubusercontent.com/theSoberSobber/CP-Snippets/main/snippets.json" > snippets.json
 ```
