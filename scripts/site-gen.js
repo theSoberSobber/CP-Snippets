@@ -48,13 +48,13 @@ The old version of site is available [here](${self}/old-index.html).
 
 `;
     let book=index;
-    let links="";
+    let links="", rest="";
     for(let i in file){ 
         links += `
 - **[${i}](${self}/${file[i].prefix})** : ${file[i].description} `;
     }
 
-    index += `
+    rest += `
 \`\`\`bash
 curl -L "${raw}" > snippets.json
 \`\`\`
@@ -62,9 +62,9 @@ curl -L "${raw}" > snippets.json
 # Index - 
 
 ${links}`;
-
+    index+=rest;
     const html = css+marked.parse(index);
-    await writeFile('./docs/README.md', index);
+    await writeFile('./docs/README.md', rest);
     await writeFile('./docs/old-index.html', html);
 
     for(let topic in file){
