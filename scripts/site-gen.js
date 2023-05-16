@@ -42,7 +42,8 @@ const {genPdf} = require("./pdf-gen.js");
 
 A collection of CPP Snippets to aid in competetive programming. <br />
 This site was auto generated with the help of [marked](https://www.npmjs.com/package/marked). <br />
-The old version of site is available [here](${self}/old-index.html).
+The old version of site is available [here](${self}/old-index.html). <br />
+This site is also available in the form of a PDF book for your convenience, you can download it from [here](https://github.com/theSoberSobber/CP-Snippets/blob/main/book/codebook-light.pdf).
 
 ---
 
@@ -55,6 +56,7 @@ The old version of site is available [here](${self}/old-index.html).
 A collection of CPP Snippets to aid in competetive programming. <br />
 This site was auto generated with the help of [marked](https://www.npmjs.com/package/marked). <br />
 The old version of site is available [here](${self}/old-index.html).
+This site is also available in the form of a PDF book for your convenience, you can download it from [here](https://github.com/theSoberSobber/CP-Snippets/blob/main/book/codebook-light.pdf).
     
 ---
     
