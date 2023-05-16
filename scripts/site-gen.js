@@ -48,8 +48,8 @@ The old version of site is available [here](${self}/old-index.html).
 
 `;
     let book=index;
-    let links="";
-    let rest=`
+    let links="", rest="";
+    let newSite=`
 ## About
 
 A collection of CPP Snippets to aid in competetive programming. <br />
@@ -73,8 +73,9 @@ curl -L "${raw}" > snippets.json
 
 ${links}`;
     index+=rest;
+    newSite+=rest;
     const html = css+marked.parse(index);
-    await writeFile('./docs/README.md', rest);
+    await writeFile('./docs/README.md', newSite);
     await writeFile('./docs/old-index.html', html);
 
     for(let topic in file){
