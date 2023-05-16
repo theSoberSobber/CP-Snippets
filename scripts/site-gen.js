@@ -41,11 +41,13 @@ const {genPdf} = require("./pdf-gen.js");
 ## About
 
 A collection of CPP Snippets to aid in competetive programming. <br />
-This site was auto generated with the help of [marked](https://www.npmjs.com/package/marked).
+This site was auto generated with the help of [marked](https://www.npmjs.com/package/marked). <br />
+The old version of site is available [here](${self}/old-index.html).
 
 ---
 
 `;
+    let book=index;
     let links="";
     for(let i in file){ 
         links += `
@@ -62,10 +64,8 @@ curl -L "${raw}" > snippets.json
 ${links}`;
 
     const html = css+marked.parse(index);
-    await writeFile('./temp.md', index);
-    await writeFile('./docs/index.html', html);
-    await genPdf("codebook.pdf", html);
-
+    await writeFile('./docs/README.md', index);
+    await writeFile('./docs/old-index.html', html);
 
     for(let topic in file){
         let code="";
@@ -87,7 +87,12 @@ ${links}`;
 ${code}
 \`\`\`
 `;  
-    await open(`./docs/${file[topic].prefix}.md`, 'w+');
-    await writeFile(`./docs/${file[topic].prefix}.md`, oneFile);
+        const fileHandler = await open(`./docs/${file[topic].prefix}.md`, 'w+');
+        await writeFile(`./docs/${file[topic].prefix}.md`, oneFile);
+        await fileHandler.close();
+        book+=oneFile;
     }
+    const bookHtml = css+marked.parse(book);
+    await genPdf("./book/codebook-light.pdf", bookHtml, 0);
+    await genPdf("./book/codebook-dark.pdf", bookHtml, 1);
 })();
