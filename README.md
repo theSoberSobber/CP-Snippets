@@ -12,51 +12,52 @@ curl -L "https://raw.githubusercontent.com/theSoberSobber/CP-Snippets/main/snipp
 - **[binsearch](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L68)** : binsearch 
 - **[bp](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L89)** : bp 
 - **[clock_for_TL](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L167)** : clock 
-- **[combination-non-mod](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L179)** : combination-non-mod 
-- **[combination-small](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L196)** : combination-small 
-- **[combination](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L212)** : combination 
-- **[crt](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L225)** : crt 
-- **[cute-lcm](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L249)** : [a,b,c]=abc(a,b,c)/(a,b)(b,c)(c,a), where []=lcm adn ()=gcd or [a,b,c]=abc/gcd(ab,bc,ca) 
-- **[derangments](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L259)** : derangments 
-- **[dfs](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L272)** : weird ass dfs 
-- **[diophantine](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L292)** : linear diophantine 
-- **[dsu-rr](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L368)** : dsu-rr 
-- **[easy_seive](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L407)** : easy_seive 
-- **[euclid](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L426)** : euclid 
-- **[explanation_binsearch](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L451)** : explanation_binsearch 
-- **[fac](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L486)** : fac 
-- **[factorization](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L500)** : factorization 
-- **[fenwick](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L530)** : binary indexed tree 
-- **[file_io](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L570)** : for coding competetions 
-- **[freq-map](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L580)** : freq-map 
-- **[gr-inp-Fwt](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L591)** : graph input weight 
-- **[gr-inp](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L604)** : graph input 
-- **[highest_exponent](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L617)** : power_in_fac 
-- **[interactive](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L632)** : essential measures for interactive problems 
-- **[ip-overloads](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L657)** : I/O Overloads that I don't use 
-- **[kadane](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L674)** : max subarray sum O(n) 
-- **[kosaraju](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L690)** : kosaraju 
-- **[kruskal](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L770)** : kruskal 
-- **[lambda_function](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L791)** : lambda_function 
-- **[lca](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L800)** : LCA path satisfying some condition 
-- **[log](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L861)** : log 
-- **[matrix](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L892)** : matrix 
-- **[mint](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L943)** : modular integer 
-- **[modpow](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1002)** : modpow 
-- **[pbds](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1018)** : pbds 
-- **[pq](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1033)** : pq 
-- **[prime-related-stuff](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1041)** : implements prime fac, fac list and is_prime in both space optimized and time optimized ways 
-- **[re-write](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1232)** : a bunch of re and write functions based on template meta programming heklpful in cp. 
-- **[recur-binsearch](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1254)** : recursive binary search implementation to make intution easier ig 
-- **[recur-modpow](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1271)** : recur-modpow 
-- **[rng](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1287)** : rng 
-- **[rr-segtree](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1296)** : best segtree 
-- **[segtree](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1440)** : sextree 
-- **[seive](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1554)** : seive 
-- **[tokenizer](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1572)** : tokenizer that has no use 
-- **[totient-seive](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1579)** : totient-seive 
-- **[totient](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1593)** : totient 
-- **[trie](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1613)** : trie 
-- **[troll](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1649)** : troll 
-- **[two-sat (kosaraju)](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1659)** : two-sat (kosaraju) 
-- **[xor-basis](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1796)** : xor-basis 
+- **[combi-struct](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L179)** : combi-struct 
+- **[combination-non-mod](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L230)** : combination-non-mod 
+- **[combination-small](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L247)** : combination-small 
+- **[combination](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L263)** : combination 
+- **[crt](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L276)** : crt 
+- **[cute-lcm](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L300)** : [a,b,c]=abc(a,b,c)/(a,b)(b,c)(c,a), where []=lcm adn ()=gcd or [a,b,c]=abc/gcd(ab,bc,ca) 
+- **[derangments](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L310)** : derangments 
+- **[dfs](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L323)** : weird ass dfs 
+- **[diophantine](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L343)** : linear diophantine 
+- **[dsu-rr](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L419)** : dsu-rr 
+- **[easy_seive](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L458)** : easy_seive 
+- **[euclid](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L477)** : euclid 
+- **[explanation_binsearch](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L502)** : explanation_binsearch 
+- **[fac](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L537)** : fac 
+- **[factorization](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L551)** : factorization 
+- **[fenwick](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L581)** : binary indexed tree 
+- **[file_io](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L621)** : for coding competetions 
+- **[freq-map](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L631)** : freq-map 
+- **[gr-inp-Fwt](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L642)** : graph input weight 
+- **[gr-inp](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L655)** : graph input 
+- **[highest_exponent](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L668)** : power_in_fac 
+- **[interactive](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L683)** : essential measures for interactive problems 
+- **[ip-overloads](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L708)** : I/O Overloads that I don't use 
+- **[kadane](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L725)** : max subarray sum O(n) 
+- **[kosaraju](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L741)** : kosaraju 
+- **[kruskal](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L821)** : kruskal 
+- **[lambda_function](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L842)** : lambda_function 
+- **[lca](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L851)** : LCA path satisfying some condition 
+- **[log](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L912)** : log 
+- **[matrix](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L943)** : matrix 
+- **[mint](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L994)** : modular integer 
+- **[modpow](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1053)** : modpow 
+- **[pbds](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1069)** : pbds 
+- **[pq](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1084)** : pq 
+- **[prime-related-stuff](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1092)** : implements prime fac, fac list and is_prime in both space optimized and time optimized ways 
+- **[re-write](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1283)** : a bunch of re and write functions based on template meta programming heklpful in cp. 
+- **[recur-binsearch](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1305)** : recursive binary search implementation to make intution easier ig 
+- **[recur-modpow](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1322)** : recur-modpow 
+- **[rng](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1338)** : rng 
+- **[rr-segtree](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1347)** : best segtree 
+- **[segtree](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1491)** : sextree 
+- **[seive](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1605)** : seive 
+- **[tokenizer](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1623)** : tokenizer that has no use 
+- **[totient-seive](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1630)** : totient-seive 
+- **[totient](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1644)** : totient 
+- **[trie](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1664)** : trie 
+- **[troll](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1700)** : troll 
+- **[two-sat (kosaraju)](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1710)** : two-sat (kosaraju) 
+- **[xor-basis](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1847)** : xor-basis 
