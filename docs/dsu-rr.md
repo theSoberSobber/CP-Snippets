@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/dsu-rr
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L419)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L464)
 
 ```cpp
 class Solution {

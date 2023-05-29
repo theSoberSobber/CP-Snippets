@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/fenwick
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L581)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L626)
 
 ```cpp
 // 0-indexed BIT (binary indexed tree / Fenwick tree) (i : [0, len))

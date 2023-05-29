@@ -21,6 +21,7 @@ curl -L "https://raw.githubusercontent.com/theSoberSobber/CP-Snippets/main/snipp
 - **[arr-pref](https://thesobersobber.github.io/CP-Snippets/arr-pref)** : arr-pref 
 - **[binpow](https://thesobersobber.github.io/CP-Snippets/binpow)** : binpow 
 - **[binsearch](https://thesobersobber.github.io/CP-Snippets/binsearch)** : binsearch 
+- **[bp-small](https://thesobersobber.github.io/CP-Snippets/bp-small)** : bp-small 
 - **[bp](https://thesobersobber.github.io/CP-Snippets/bp)** : bp 
 - **[clock_for_TL](https://thesobersobber.github.io/CP-Snippets/clock_for_TL)** : clock 
 - **[combi-struct](https://thesobersobber.github.io/CP-Snippets/combi-struct)** : combi-struct 

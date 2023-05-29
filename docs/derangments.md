@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/derangments
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L310)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L355)
 
 ```cpp
 int countDerangements(int n){
