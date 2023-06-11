@@ -61,4 +61,5 @@ curl -L "https://raw.githubusercontent.com/theSoberSobber/CP-Snippets/main/snipp
 - **[trie](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1709)** : trie 
 - **[troll](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1745)** : troll 
 - **[two-sat (kosaraju)](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1755)** : two-sat (kosaraju) 
-- **[xor-basis](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1892)** : xor-basis 
+- **[variadic](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1892)** : variadic lambdas with 1 and 2 arguments 
+- **[xor-basis](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1901)** : xor-basis 

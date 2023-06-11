@@ -1889,6 +1889,15 @@
 		],
 		"description":"two-sat (kosaraju)"
 	},
+	"variadic": {
+		"prefix":"variadic",
+		"body": [
+			"#define f(u, args...)     [&](auto &&u) { return args; }",
+			"#define g(u, v, args...)  [&](auto &&u, auto &&v) { return args; }",
+			""
+		],
+		"description":"variadic lambdas with 1 and 2 arguments"
+	},
 	"xor-basis": {
 		"prefix":"xor-basis",
 		"body": [
