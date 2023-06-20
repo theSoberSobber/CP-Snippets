@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/easy_seive
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L503)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L533)
 
 ```cpp
 void ez_seive(int n){

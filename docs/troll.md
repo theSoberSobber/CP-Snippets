@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/troll
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1745)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1775)
 
 ```cpp
 // Assembly Generator: gcc -S -o temp.s fileName.cpp

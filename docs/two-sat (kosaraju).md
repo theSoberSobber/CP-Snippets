@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/two-sat (kosaraju)
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1755)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1785)
 
 ```cpp
 /**
