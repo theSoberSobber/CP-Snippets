@@ -50,6 +50,7 @@ curl -L "https://raw.githubusercontent.com/theSoberSobber/CP-Snippets/main/snipp
 - **[interactive](https://thesobersobber.github.io/CP-Snippets/interactive)** : essential measures for interactive problems 
 - **[ip-overloads](https://thesobersobber.github.io/CP-Snippets/ip-overloads)** : I/O Overloads that I don't use 
 - **[kadane](https://thesobersobber.github.io/CP-Snippets/kadane)** : max subarray sum O(n) 
+- **[kahn's algo](https://thesobersobber.github.io/CP-Snippets/topo-bfs)** : toposort using bfs (kahn's algo) 
 - **[kosaraju](https://thesobersobber.github.io/CP-Snippets/kosaraju)** : kosaraju 
 - **[kruskal](https://thesobersobber.github.io/CP-Snippets/kruskal)** : kruskal 
 - **[lambda_function](https://thesobersobber.github.io/CP-Snippets/lambda_function)** : lambda_function 
