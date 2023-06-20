@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/log
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L987)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1006)
 
 ```cpp
 // Computes x which a ^ x = b mod n.

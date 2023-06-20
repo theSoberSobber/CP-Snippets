@@ -19,6 +19,7 @@ curl -L "https://raw.githubusercontent.com/theSoberSobber/CP-Snippets/main/snipp
 - **[DSU](https://thesobersobber.github.io/CP-Snippets/DSU)** : DSU 
 - **[arr-inp](https://thesobersobber.github.io/CP-Snippets/arr-inp)** : arr-inp 
 - **[arr-pref](https://thesobersobber.github.io/CP-Snippets/arr-pref)** : arr-pref 
+- **[bfs-dist](https://thesobersobber.github.io/CP-Snippets/bfs-dist)** : bfs that measures levels/dist 
 - **[binpow](https://thesobersobber.github.io/CP-Snippets/binpow)** : binpow 
 - **[binsearch](https://thesobersobber.github.io/CP-Snippets/binsearch)** : binsearch 
 - **[bp-small](https://thesobersobber.github.io/CP-Snippets/bp-small)** : bp-small 
