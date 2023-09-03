@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/topo-bfs
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L835)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L911)
 
 ```cpp
 queue<int> q;

@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/seive
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1721)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1797)
 
 ```cpp
 vector<bool> Prime;

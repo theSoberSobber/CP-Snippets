@@ -1,13 +1,14 @@
 
-## mint
+## combi-mint
 
-- modular integer
+- combi template with mint
 - ```
-  https://thesobersobber.github.io/CP-Snippets/mint
+  https://thesobersobber.github.io/CP-Snippets/combi-mint
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1186)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L243)
 
 ```cpp
+const int mod=1e9+7;
 struct mi {
     int64_t v; explicit operator int64_t() const { return v % mod; }
     mi() { v = 0; }
@@ -60,5 +61,21 @@ struct mi {
         cerr << x.v;
     }
 };
+const int maxn=2e5+5;
+vector<mi> fct(maxn, 1), invf(maxn, 1);
+void calc_fact() {
+    for(int i = 1 ; i < maxn ; i++) {
+        fct[i] = fct[i - 1] * i;
+    }
+    invf.back() = mi(1) / fct.back();
+    for(int i = maxn - 1 ; i ; i--)
+        invf[i - 1] = i * invf[i];
+}
+ 
+mi choose(int n, int r) { // choose r elements out of n elements
+    if(r > n)   return mi(0);
+    assert(r <= n);
+    return fct[n] * invf[r] * invf[n - r];
+}
 
 ```

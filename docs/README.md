@@ -25,6 +25,7 @@ curl -L "https://raw.githubusercontent.com/theSoberSobber/CP-Snippets/main/snipp
 - **[bp-small](https://thesobersobber.github.io/CP-Snippets/bp-small)** : bp-small 
 - **[bp](https://thesobersobber.github.io/CP-Snippets/bp)** : bp 
 - **[clock_for_TL](https://thesobersobber.github.io/CP-Snippets/clock_for_TL)** : clock 
+- **[combi-mint](https://thesobersobber.github.io/CP-Snippets/combi-mint)** : combi template with mint 
 - **[combi-struct](https://thesobersobber.github.io/CP-Snippets/combi-struct)** : combi-struct 
 - **[combination-non-mod](https://thesobersobber.github.io/CP-Snippets/combination-non-mod)** : combination-non-mod 
 - **[combination-small](https://thesobersobber.github.io/CP-Snippets/combination-small)** : combination-small 
