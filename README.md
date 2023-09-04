@@ -44,26 +44,27 @@ curl -L "https://raw.githubusercontent.com/theSoberSobber/CP-Snippets/main/snipp
 - **[kosaraju](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L933)** : kosaraju 
 - **[kruskal](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1013)** : kruskal 
 - **[lambda_function](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1034)** : lambda_function 
-- **[lca](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1043)** : LCA path satisfying some condition 
-- **[log](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1104)** : log 
-- **[matrix](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1135)** : matrix 
-- **[mint](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1186)** : modular integer 
-- **[modpow](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1245)** : modpow 
-- **[pbds](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1261)** : pbds 
-- **[pq](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1276)** : pq 
-- **[prime-related-stuff](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1284)** : implements prime fac, fac list and is_prime in both space optimized and time optimized ways 
-- **[re-write](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1475)** : a bunch of re and write functions based on template meta programming heklpful in cp. 
-- **[recur-binsearch](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1497)** : recursive binary search implementation to make intution easier ig 
-- **[recur-modpow](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1514)** : recur-modpow 
-- **[rng](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1530)** : rng 
-- **[rr-segtree](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1539)** : best segtree 
-- **[segtree](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1683)** : sextree 
-- **[seive](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1797)** : seive 
-- **[tokenizer](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1815)** : tokenizer that has no use 
-- **[totient-seive](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1822)** : totient-seive 
-- **[totient](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1836)** : totient 
-- **[trie](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1856)** : trie 
-- **[troll](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1892)** : troll 
-- **[two-sat (kosaraju)](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1902)** : two-sat (kosaraju) 
-- **[variadic](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2039)** : variadic lambdas with 1 and 2 arguments 
-- **[xor-basis](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2048)** : xor-basis 
+- **[lca-isAncestor](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1043)** : lca that uses isAncestor instead of level jumping, sets a level upper limit of 25 itself since 2^25 is bigger than any N give anyways 
+- **[lca](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1094)** : LCA path satisfying some condition 
+- **[log](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1155)** : log 
+- **[matrix](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1186)** : matrix 
+- **[mint](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1237)** : modular integer 
+- **[modpow](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1296)** : modpow 
+- **[pbds](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1312)** : pbds 
+- **[pq](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1327)** : pq 
+- **[prime-related-stuff](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1335)** : implements prime fac, fac list and is_prime in both space optimized and time optimized ways 
+- **[re-write](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1526)** : a bunch of re and write functions based on template meta programming heklpful in cp. 
+- **[recur-binsearch](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1548)** : recursive binary search implementation to make intution easier ig 
+- **[recur-modpow](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1565)** : recur-modpow 
+- **[rng](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1581)** : rng 
+- **[rr-segtree](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1590)** : best segtree 
+- **[segtree](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1734)** : sextree 
+- **[seive](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1848)** : seive 
+- **[tokenizer](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1866)** : tokenizer that has no use 
+- **[totient-seive](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1873)** : totient-seive 
+- **[totient](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1887)** : totient 
+- **[trie](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1907)** : trie 
+- **[troll](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1943)** : troll 
+- **[two-sat (kosaraju)](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1953)** : two-sat (kosaraju) 
+- **[variadic](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2090)** : variadic lambdas with 1 and 2 arguments 
+- **[xor-basis](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2099)** : xor-basis 

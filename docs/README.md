@@ -55,6 +55,7 @@ curl -L "https://raw.githubusercontent.com/theSoberSobber/CP-Snippets/main/snipp
 - **[kosaraju](https://thesobersobber.github.io/CP-Snippets/kosaraju)** : kosaraju 
 - **[kruskal](https://thesobersobber.github.io/CP-Snippets/kruskal)** : kruskal 
 - **[lambda_function](https://thesobersobber.github.io/CP-Snippets/lambda_function)** : lambda_function 
+- **[lca-isAncestor](https://thesobersobber.github.io/CP-Snippets/lca-isAncestor)** : lca that uses isAncestor instead of level jumping, sets a level upper limit of 25 itself since 2^25 is bigger than any N give anyways 
 - **[lca](https://thesobersobber.github.io/CP-Snippets/lca)** : LCA path satisfying some condition 
 - **[log](https://thesobersobber.github.io/CP-Snippets/log)** : log 
 - **[matrix](https://thesobersobber.github.io/CP-Snippets/matrix)** : matrix 

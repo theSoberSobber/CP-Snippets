@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/recur-modpow
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1514)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1565)
 
 ```cpp
 int power(int x, int y){

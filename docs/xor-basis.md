@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/xor-basis
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2048)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2099)
 
 ```cpp
 struct XorBasis{

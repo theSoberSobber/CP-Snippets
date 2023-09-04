@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/read-write-fn-impl
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1475)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1526)
 
 ```cpp
 template <class T1, class T2> void re(pair<T1, T2> &p);
