@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/binpow
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L72)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L132)
 
 ```cpp
 ll binpow(ll x, ll y){

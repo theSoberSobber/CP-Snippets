@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/lca-isAncestor
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1043)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1103)
 
 ```cpp
 void dfs(int node,int parent,vector<vector<pair<int,int>>>&g,vector<vector<int>>&up,vector<vector<ll>>&dp,

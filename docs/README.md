@@ -16,6 +16,7 @@ curl -L "https://raw.githubusercontent.com/theSoberSobber/CP-Snippets/main/snipp
 # Index - 
 
 
+- **[BIT-general](https://thesobersobber.github.io/CP-Snippets/BIT-general)** : easy BIT general with range updates by diff array too 
 - **[DSU](https://thesobersobber.github.io/CP-Snippets/DSU)** : DSU 
 - **[arr-inp](https://thesobersobber.github.io/CP-Snippets/arr-inp)** : arr-inp 
 - **[arr-pref](https://thesobersobber.github.io/CP-Snippets/arr-pref)** : arr-pref 

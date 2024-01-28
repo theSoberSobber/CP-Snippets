@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/dfs-full
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L463)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L523)
 
 ```cpp
 auto dfs = [&](auto &&dfs, int curr, int parent, vector<int> &visG, vector<int> &visPath ,vector<int> &comp, bool &cycle_directed, stack<int> topo, vector<int> &adj) -> void {

@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/diophantine
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L513)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L573)
 
 ```cpp
 long long gcd(long long a, long long b, long long &x, long long &y) {
