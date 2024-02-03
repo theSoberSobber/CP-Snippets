@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/mint
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1297)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1309)
 
 ```cpp
 struct mi {

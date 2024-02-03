@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/arr-inp
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L97)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L109)
 
 ```cpp
 vector<int> a(n, 0);

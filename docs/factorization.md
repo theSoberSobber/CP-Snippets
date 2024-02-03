@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/factorization
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L781)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L793)
 
 ```cpp
 void printFactors(int n) { 

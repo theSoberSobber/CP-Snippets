@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/totient
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1947)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1959)
 
 ```cpp
 long long totient(long long n) {

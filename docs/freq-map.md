@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/freq-map
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L861)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L873)
 
 ```cpp
 map<int, int> m;

@@ -60,6 +60,18 @@ public:
         add(l, val);
         add(r + 1, -val);
     }
+    template <class OStream>
+    friend OStream &operator<<(OStream &os, BIT &bit)
+    {
+        T prv = 0;
+        os << '[';
+        for (int i = 1; i <= bit.N; i++)
+        {
+            T now = bit.sum(i);
+            os << now - prv << ',', prv = now;
+        }
+        return os << ']';
+    }
 };
 
 ```

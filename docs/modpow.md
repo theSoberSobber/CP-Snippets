@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/modpow
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1356)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1368)
 
 ```cpp
 ll modpow(ll a, ll b){
