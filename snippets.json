@@ -235,7 +235,7 @@
 			"};",
 			""
 		],
-		"description":"Init with an array simply using the build fn, customize operation and epslion in the struct itself"
+		"description":"Init with an array simply using the build fn, customize operation and epslion in the struct itself, supports point updates and range queries"
 	},
 	"arr-inp": {
 		"prefix":"arr-inp",

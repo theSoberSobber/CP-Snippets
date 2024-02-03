@@ -1,7 +1,7 @@
 
 ## Simpler-Segtree
 
-- Init with an array simply using the build fn, customize operation and epslion in the struct itself
+- Init with an array simply using the build fn, customize operation and epslion in the struct itself, supports point updates and range queries
 - ```
   https://thesobersobber.github.io/CP-Snippets/Simpler-Segtree
   ```

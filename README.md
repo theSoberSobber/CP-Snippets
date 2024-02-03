@@ -8,7 +8,7 @@ curl -L "https://raw.githubusercontent.com/theSoberSobber/CP-Snippets/main/snipp
 - **[BIT-general](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2)** : easy BIT general with range updates by diff array too 
 - **[DSU](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L74)** : DSU 
 - **[Segtree-General](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L109)** : General segree, needs node struct (with members def and epsilon(default) for all of them) and operation lambda (merge) 
-- **[Simpler-Segtree](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L186)** : Init with an array simply using the build fn, customize operation and epslion in the struct itself 
+- **[Simpler-Segtree](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L186)** : Init with an array simply using the build fn, customize operation and epslion in the struct itself, supports point updates and range queries 
 - **[arr-inp](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L240)** : arr-inp 
 - **[arr-pref](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L248)** : arr-pref 
 - **[bfs-dist](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L256)** : bfs that measures levels/dist 
