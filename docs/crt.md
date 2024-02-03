@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/crt
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L488)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L565)
 
 ```cpp
 /**
