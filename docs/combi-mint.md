@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/combi-mint
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L446)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L521)
 
 ```cpp
 const int mod=1e9+7;

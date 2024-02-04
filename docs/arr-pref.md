@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/arr-pref
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L248)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L323)
 
 ```cpp
 vector<int> pre(n, 0);

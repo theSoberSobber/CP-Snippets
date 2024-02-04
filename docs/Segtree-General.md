@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/Segtree-General
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L109)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L184)
 
 ```cpp
 template <typename T>

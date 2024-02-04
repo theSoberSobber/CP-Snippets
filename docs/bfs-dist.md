@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/bfs-dist
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L256)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L331)
 
 ```cpp
 queue<int> q;
