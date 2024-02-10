@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/segtree
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2161)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2283)
 
 ```cpp
 template<class T, class U>

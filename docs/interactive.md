@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/interactive
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1280)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1402)
 
 ```cpp
 void solve(){

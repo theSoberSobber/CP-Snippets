@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/prime-related-stuff
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1762)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1884)
 
 ```cpp
 vector<int> smallest_factor;
