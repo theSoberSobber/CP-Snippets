@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/clock_for_TL
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L509)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L658)
 
 ```cpp
 auto start = chrono::high_resolution_clock::now();

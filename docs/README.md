@@ -21,6 +21,7 @@ curl -L "https://raw.githubusercontent.com/theSoberSobber/CP-Snippets/main/snipp
 - **[General-Hash](https://thesobersobber.github.io/CP-Snippets/General-Hash)** : General Hash functions that returns two hashes, takes in 0 indexed arr or string, allows hash query on range, beware that this uses the decreasing power convention 
 - **[Segtree-General](https://thesobersobber.github.io/CP-Snippets/Segtree-General)** : General segree, needs node struct (with members def and epsilon(default) for all of them) and operation lambda (merge) 
 - **[Simpler-Segtree](https://thesobersobber.github.io/CP-Snippets/Simpler-Segtree)** : Init with an array simply using the build fn, customize operation and epslion in the struct itself, supports point updates and range queries 
+- **[Weird_Lazy_Segtree](https://thesobersobber.github.io/CP-Snippets/Lazy Segtree)** : A lazy segtree taken from a abc340 E mridulahi submission, it's supposed to be able to do range updates and point queries 
 - **[arr-inp](https://thesobersobber.github.io/CP-Snippets/arr-inp)** : arr-inp 
 - **[arr-pref](https://thesobersobber.github.io/CP-Snippets/arr-pref)** : arr-pref 
 - **[bfs-dist](https://thesobersobber.github.io/CP-Snippets/bfs-dist)** : bfs that measures levels/dist 

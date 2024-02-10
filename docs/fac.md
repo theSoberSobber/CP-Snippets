@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/fac
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L985)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1134)
 
 ```cpp
 int fac[maxn];

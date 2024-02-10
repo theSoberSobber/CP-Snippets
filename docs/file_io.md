@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/file_io
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1069)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1218)
 
 ```cpp
 void file_i_o(){

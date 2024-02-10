@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/matrix
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1464)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1613)
 
 ```cpp
 const int MN  = 111;

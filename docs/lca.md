@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/lca
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1372)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1521)
 
 ```cpp
 constexpr int N = 5; // No. of vertices
