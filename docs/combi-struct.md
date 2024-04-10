@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/combi-struct
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L868)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L919)
 
 ```cpp
 struct Comb {

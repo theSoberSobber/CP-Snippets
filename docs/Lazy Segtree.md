@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/Lazy Segtree
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L437)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L488)
 
 ```cpp
 
