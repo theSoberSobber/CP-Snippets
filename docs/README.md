@@ -78,6 +78,7 @@ curl -L "https://raw.githubusercontent.com/theSoberSobber/CP-Snippets/main/snipp
 - **[rr-segtree](https://thesobersobber.github.io/CP-Snippets/rr-segtree)** : best segtree 
 - **[segtree](https://thesobersobber.github.io/CP-Snippets/segtree)** : sextree 
 - **[seive](https://thesobersobber.github.io/CP-Snippets/seive)** : seive 
+- **[splay-tree-rr-sir](https://thesobersobber.github.io/CP-Snippets/Splay Tree)** : used here by rr sir, I have no idea how to use it or what it's used in mostly, [RR Sir ABC F Submission](https://atcoder.jp/contests/abc350/submissions/52600529) 
 - **[tokenizer](https://thesobersobber.github.io/CP-Snippets/tokenizer)** : tokenizer that has no use 
 - **[totient-seive](https://thesobersobber.github.io/CP-Snippets/totient-seive)** : totient-seive 
 - **[totient](https://thesobersobber.github.io/CP-Snippets/totient)** : totient 

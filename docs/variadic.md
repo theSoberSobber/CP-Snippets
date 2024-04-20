@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/variadic
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2690)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2885)
 
 ```cpp
 #define f(u, args...)     [&](auto &&u) { return args; }

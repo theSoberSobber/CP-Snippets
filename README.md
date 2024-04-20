@@ -67,11 +67,12 @@ curl -L "https://raw.githubusercontent.com/theSoberSobber/CP-Snippets/main/snipp
 - **[rr-segtree](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2190)** : best segtree 
 - **[segtree](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2334)** : sextree 
 - **[seive](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2448)** : seive 
-- **[tokenizer](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2466)** : tokenizer that has no use 
-- **[totient-seive](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2473)** : totient-seive 
-- **[totient](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2487)** : totient 
-- **[trie](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2507)** : trie 
-- **[troll](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2543)** : troll 
-- **[two-sat (kosaraju)](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2553)** : two-sat (kosaraju) 
-- **[variadic](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2690)** : variadic lambdas with 1 and 2 arguments 
-- **[xor-basis](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2699)** : xor-basis 
+- **[splay-tree-rr-sir](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2466)** : used here by rr sir, I have no idea how to use it or what it's used in mostly, [RR Sir ABC F Submission](https://atcoder.jp/contests/abc350/submissions/52600529) 
+- **[tokenizer](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2661)** : tokenizer that has no use 
+- **[totient-seive](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2668)** : totient-seive 
+- **[totient](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2682)** : totient 
+- **[trie](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2702)** : trie 
+- **[troll](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2738)** : troll 
+- **[two-sat (kosaraju)](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2748)** : two-sat (kosaraju) 
+- **[variadic](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2885)** : variadic lambdas with 1 and 2 arguments 
+- **[xor-basis](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2894)** : xor-basis 
