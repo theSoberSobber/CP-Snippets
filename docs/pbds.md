@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/pbds
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1912)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1978)
 
 ```cpp
 #include <ext/pb_ds/assoc_container.hpp>
