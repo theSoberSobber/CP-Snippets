@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/euclid
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1313)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1333)
 
 ```cpp
 int euclid_gcd(int a, int b){

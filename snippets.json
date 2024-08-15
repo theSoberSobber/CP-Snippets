@@ -303,6 +303,26 @@
 		],
 		"description":"General Hash functions that returns two hashes, takes in 0 indexed arr or string, allows hash query on range, beware that this uses the decreasing power convention"
 	},
+	"Inline-break": {
+		"prefix":"Inline Break",
+		"body": [
+			"static inline int break_(void) {",
+			"        extern void abort(void);",
+			"        abort();",
+			"        return 0;",
+			"}",
+			"#define break break_",
+			"",
+			"int main(int c, char **v) {",
+			"        int yay = 1;",
+			"        for (int i = 0; ++i < c;)",
+			"                if (v[i][0] == '1') yay = 0, break;",
+			"        return yay;",
+			"}",
+			""
+		],
+		"description":"Inline Break by defining break to a function that basically breaks but returns value and hence can be used as a expression with comma operator"
+	},
 	"LCA-RMQ": {
 		"prefix":"LCA-RMQ",
 		"body": [

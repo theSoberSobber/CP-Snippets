@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/kosaraju
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1599)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1619)
 
 ```cpp
 class Graph {

@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/dfs
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1159)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1179)
 
 ```cpp
 map<int,int> dfs(int cur,int par,vi&a){

@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/LCA-RMQ
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L306)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L326)
 
 ```cpp
 template<class T> 

@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/gr-inp-Fwt
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1478)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1498)
 
 ```cpp
 int e=f(n);

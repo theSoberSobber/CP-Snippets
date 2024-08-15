@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/Simpler-Segtree
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L449)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L469)
 
 ```cpp
 struct segtree {

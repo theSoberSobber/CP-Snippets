@@ -20,6 +20,7 @@ curl -L "https://raw.githubusercontent.com/theSoberSobber/CP-Snippets/main/snipp
 - **[DSU](https://thesobersobber.github.io/CP-Snippets/DSU)** : DSU 
 - **[ExtendedGcdDiophantine](https://thesobersobber.github.io/CP-Snippets/Extended GCD Diophantine, All Solution, Any Solution)** : Diophantine any and all soln 
 - **[General-Hash](https://thesobersobber.github.io/CP-Snippets/General-Hash)** : General Hash functions that returns two hashes, takes in 0 indexed arr or string, allows hash query on range, beware that this uses the decreasing power convention 
+- **[Inline-break](https://thesobersobber.github.io/CP-Snippets/Inline Break)** : Inline Break by defining break to a function that basically breaks but returns value and hence can be used as a expression with comma operator 
 - **[LCA-RMQ](https://thesobersobber.github.io/CP-Snippets/LCA-RMQ)** : LCA using Range Min Query(Sparse) on ETT ([Reference](https://codeforces.com/contest/1975/submission/262585070)) 
 - **[Segtree-General](https://thesobersobber.github.io/CP-Snippets/Segtree-General)** : General segree, needs node struct (with members def and epsilon(default) for all of them) and operation lambda (merge) 
 - **[Simpler-Segtree](https://thesobersobber.github.io/CP-Snippets/Simpler-Segtree)** : Init with an array simply using the build fn, customize operation and epslion in the struct itself, supports point updates and range queries 
