@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/rng
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2290)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2313)
 
 ```cpp
 //random generator
