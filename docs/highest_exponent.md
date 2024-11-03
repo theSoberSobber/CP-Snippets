@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/highest_exponent
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1524)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1547)
 
 ```cpp
 int highest_exponent(int p, const int &n){

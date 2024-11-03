@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/combination
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1089)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1112)
 
 ```cpp
 int C(int n, int r){

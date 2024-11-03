@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/Splay Tree
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2552)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2575)
 
 ```cpp
 

@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/explanation_binsearch
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1358)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1381)
 
 ```cpp
 int lo = 0, hi = n-1; // see constraints for lo and hi, nahi mil rahe toh just take 0 and 1e18

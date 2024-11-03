@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/lambda_function
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1720)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1743)
 
 ```cpp
 auto check = [&](ll mid) {

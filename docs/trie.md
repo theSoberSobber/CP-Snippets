@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/trie
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2788)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2811)
 
 ```cpp
 struct Trie{

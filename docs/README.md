@@ -26,6 +26,7 @@ curl -L "https://raw.githubusercontent.com/theSoberSobber/CP-Snippets/main/snipp
 - **[Simpler-Segtree](https://thesobersobber.github.io/CP-Snippets/Simpler-Segtree)** : Init with an array simply using the build fn, customize operation and epslion in the struct itself, supports point updates and range queries 
 - **[Sparse-General](https://thesobersobber.github.io/CP-Snippets/Sparse-General)** : General Implementation of Sparse table with the template<class T> structure 
 - **[Weird_Lazy_Segtree](https://thesobersobber.github.io/CP-Snippets/Lazy Segtree)** : A lazy segtree taken from a abc340 E mridulahi submission, it's supposed to be able to do range updates and point queries 
+- **[Xor-Of-First-N-Natural-Numbers](https://thesobersobber.github.io/CP-Snippets/Xor of first N Natural Numbers)** : based on the fact that if n%4==3 then xor till n from 1 is 0 
 - **[arr-inp](https://thesobersobber.github.io/CP-Snippets/arr-inp)** : arr-inp 
 - **[arr-pref](https://thesobersobber.github.io/CP-Snippets/arr-pref)** : arr-pref 
 - **[bfs-dist](https://thesobersobber.github.io/CP-Snippets/bfs-dist)** : bfs that measures levels/dist 

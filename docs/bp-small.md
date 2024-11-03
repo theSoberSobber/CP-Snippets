@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/bp-small
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L794)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L817)
 
 ```cpp
 #include <bits/stdc++.h>
