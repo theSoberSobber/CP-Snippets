@@ -18,6 +18,7 @@ curl -L "https://raw.githubusercontent.com/theSoberSobber/CP-Snippets/main/snipp
 
 - **[BIT-general](https://thesobersobber.github.io/CP-Snippets/BIT-general)** : easy BIT general with range updates by diff array too 
 - **[DSU](https://thesobersobber.github.io/CP-Snippets/DSU)** : DSU 
+- **[Efficient-Divsibility-Trick-7-and-13](https://thesobersobber.github.io/CP-Snippets/ Efficient Divibility Trick for 7 and 13)** :  used here: https://codeforces.com/contest/2043/problem/B 
 - **[ExtendedGcdDiophantine](https://thesobersobber.github.io/CP-Snippets/Extended GCD Diophantine, All Solution, Any Solution)** : Diophantine any and all soln 
 - **[General-Hash](https://thesobersobber.github.io/CP-Snippets/General-Hash)** : General Hash functions that returns two hashes, takes in 0 indexed arr or string, allows hash query on range, beware that this uses the decreasing power convention 
 - **[Inline-break](https://thesobersobber.github.io/CP-Snippets/Inline Break)** : Inline Break by defining break to a function that basically breaks but returns value and hence can be used as a expression with comma operator 

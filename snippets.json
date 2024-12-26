@@ -106,6 +106,14 @@
 		],
 		"description":"DSU"
 	},
+	"Efficient-Divsibility-Trick-7-and-13": {
+		"prefix":" Efficient Divibility Trick for 7 and 13",
+		"body": [
+			"https://www.mathematicalgemstones.com/gemstones/pearl/a-faster-divisibility-rule-for-7/",
+			""
+		],
+		"description":" used here: https://codeforces.com/contest/2043/problem/B"
+	},
 	"ExtendedGcdDiophantine": {
 		"prefix":"Extended GCD Diophantine, All Solution, Any Solution",
 		"body": [

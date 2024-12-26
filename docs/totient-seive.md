@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/totient-seive
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2800)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2808)
 
 ```cpp
   for (int i = 1; i < MN; i++)

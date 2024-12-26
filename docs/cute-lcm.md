@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/cute-lcm
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1172)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1180)
 
 ```cpp
 "https://math.stackexchange.com/questions/1579/n-ary-version-of-gcda-b-space-lcma-b-ab"

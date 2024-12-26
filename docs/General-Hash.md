@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/General-Hash
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L231)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L239)
 
 ```cpp
 struct PolyHash {

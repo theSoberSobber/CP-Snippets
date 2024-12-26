@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/pq
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2059)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L2067)
 
 ```cpp
 priority_queue<int> pq;

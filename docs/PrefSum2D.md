@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/PrefSum2D
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L392)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L400)
 
 ```cpp
 struct PrefSum2D {

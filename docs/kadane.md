@@ -5,7 +5,7 @@
 - ```
   https://thesobersobber.github.io/CP-Snippets/kadane
   ```
-- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1627)
+- [github-snip-file](https://github.com/theSoberSobber/CP-Snippets/blob/main/snippets.json#L1635)
 
 ```cpp
 int maxSubArraySum(vector<int> &v, int size){
